@@ -1,0 +1,20 @@
+ROUND 0 BINARY search15_direct_signed
+D18_BENCHMARK repeat=0 tested=549755813888 hits=0 rate=5.31359e+11
+D18_BENCHMARK repeat=1 tested=549755813888 hits=0 rate=5.3152e+11
+D18_BENCHMARK repeat=2 tested=549755813888 hits=0 rate=5.31516e+11
+D18_BENCHMARK repeat=3 tested=549755813888 hits=0 rate=5.31531e+11
+ROUND 0 BINARY search15_direct_odd_candidate
+D18_BENCHMARK repeat=0 tested=549755813888 hits=0 rate=5.67101e+11
+D18_BENCHMARK repeat=1 tested=549755813888 hits=0 rate=5.6728e+11
+D18_BENCHMARK repeat=2 tested=549755813888 hits=0 rate=5.67268e+11
+D18_BENCHMARK repeat=3 tested=549755813888 hits=0 rate=5.67273e+11
+ROUND 1 BINARY search15_direct_signed
+D18_BENCHMARK repeat=0 tested=549755813888 hits=0 rate=5.31336e+11
+D18_BENCHMARK repeat=1 tested=549755813888 hits=0 rate=5.31525e+11
+D18_BENCHMARK repeat=2 tested=549755813888 hits=0 rate=5.31518e+11
+D18_BENCHMARK repeat=3 tested=549755813888 hits=0 rate=5.31547e+11
+ROUND 1 BINARY search15_direct_odd_candidate
+D18_BENCHMARK repeat=0 tested=549755813888 hits=0 rate=5.6713e+11
+D18_BENCHMARK repeat=1 tested=549755813888 hits=0 rate=5.67294e+11
+D18_BENCHMARK repeat=2 tested=549755813888 hits=0 rate=5.67285e+11
+D18_BENCHMARK repeat=3 tested=549755813888 hits=0 rate=5.67297e+11

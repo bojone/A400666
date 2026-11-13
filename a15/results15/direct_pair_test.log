@@ -1,0 +1,1 @@
+DIRECT_PAIR_TEST_OK classes=2 starts=6 lengths=1,2,63,64 direct_gpu=3120 independent_block_sums=260 boundaries=6

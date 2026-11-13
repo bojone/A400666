@@ -1,0 +1,6 @@
+config=9:31250000:62500000
+next_x=62500000
+pre_hits=0
+hits=0
+chunk=65536
+blocks=512

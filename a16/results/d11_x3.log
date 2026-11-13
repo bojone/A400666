@@ -1,0 +1,4 @@
+
+COMMAND /mnt/moonfs/sujianlin-b0/sci/A400666/a16/search16 run d11_x3 11 3 9375000000 12500000000 65536 512
+progress name=d11_x3 next_x=12500000000/12500000000 rate=8.78846e+10 elapsed=0.035558 pre=0 hits=0
+DONE name=d11_x3 next_x=12500000000 pre=0 hits=0

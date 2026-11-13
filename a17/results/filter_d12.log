@@ -1,0 +1,6 @@
+
+COMMAND /mnt/moonfs/sujianlin-b0/sci/A400666/a17/filter17 run 12
+DONE_FILTER d=12 searched=852373 hits=0
+
+COMMAND /mnt/moonfs/sujianlin-b0/sci/A400666/A400666/a17/src/filter17 run 12
+DONE_FILTER d=12 searched=852373 hits=0

@@ -1,0 +1,67 @@
+VERIFY17_SELFTEST_OK literal=100 earlier_scan_through=1000
+MAIN_D24_COMPLETE pre_hits=343046 full_candidates=1
+BRUTEFORCE_D02_COMPLETE searched=82 full_candidates=0
+BRUTEFORCE_D03_COMPLETE searched=900 full_candidates=0
+BRUTEFORCE_D04_COMPLETE searched=9000 full_candidates=0
+BRUTEFORCE_D05_COMPLETE searched=90000 full_candidates=0
+BRUTEFORCE_D06_COMPLETE searched=900000 full_candidates=0
+FILTER_D07_COMPLETE searched=10 full_candidates=0
+FILTER_D08_COMPLETE searched=90 full_candidates=0
+FILTER_D09_COMPLETE searched=807 full_candidates=0
+FILTER_D10_COMPLETE searched=8435 full_candidates=0
+FILTER_D11_COMPLETE searched=85254 full_candidates=0
+FILTER_D12_COMPLETE searched=852373 full_candidates=0
+FILTER_D13_COMPLETE searched=8522515 full_candidates=0
+FILTER_D14_COMPLETE searched=85225663 full_candidates=0
+FILTER_D15_COMPLETE searched=852256992 full_candidates=0
+FILTER_D16_COMPLETE searched=8522569936 full_candidates=0
+FILTER_D17_COMPLETE searched=85225698921 full_candidates=0
+FILTER_D18_COMPLETE searched=852256989538 full_candidates=0
+FILTER_D19_COMPLETE searched=8522569895670 full_candidates=0
+Traceback (most recent call last):
+  File "/mnt/moonfs/sujianlin-b0/sci/A400666/a17/finalize17.py", line 59, in <module>
+    main()
+  File "/mnt/moonfs/sujianlin-b0/sci/A400666/a17/finalize17.py", line 44, in main
+    rc = finish(answer)
+         ^^^^^^^^^^^^^^
+  File "/mnt/moonfs/sujianlin-b0/sci/A400666/a17/finalize17.py", line 26, in finish
+    audit_answer()
+  File "/mnt/moonfs/sujianlin-b0/sci/A400666/a17/verify17.py", line 185, in audit_answer
+    _, values = audit_filter_digit(d) if d < 21 else audit_main_digit(d)
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/moonfs/sujianlin-b0/sci/A400666/a17/verify17.py", line 142, in audit_filter_digit
+    assert int(values["done"]) == groups, (d, values["done"], groups)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: (20, '2043', 2392)
+VERIFY17_SELFTEST_OK literal=100 earlier_scan_through=1000
+MAIN_D24_COMPLETE pre_hits=343046 full_candidates=1
+BRUTEFORCE_D02_COMPLETE searched=82 full_candidates=0
+BRUTEFORCE_D03_COMPLETE searched=900 full_candidates=0
+BRUTEFORCE_D04_COMPLETE searched=9000 full_candidates=0
+BRUTEFORCE_D05_COMPLETE searched=90000 full_candidates=0
+BRUTEFORCE_D06_COMPLETE searched=900000 full_candidates=0
+FILTER_D07_COMPLETE searched=10 full_candidates=0
+FILTER_D08_COMPLETE searched=90 full_candidates=0
+FILTER_D09_COMPLETE searched=807 full_candidates=0
+FILTER_D10_COMPLETE searched=8435 full_candidates=0
+FILTER_D11_COMPLETE searched=85254 full_candidates=0
+FILTER_D12_COMPLETE searched=852373 full_candidates=0
+FILTER_D13_COMPLETE searched=8522515 full_candidates=0
+FILTER_D14_COMPLETE searched=85225663 full_candidates=0
+FILTER_D15_COMPLETE searched=852256992 full_candidates=0
+FILTER_D16_COMPLETE searched=8522569936 full_candidates=0
+FILTER_D17_COMPLETE searched=85225698921 full_candidates=0
+FILTER_D18_COMPLETE searched=852256989538 full_candidates=0
+FILTER_D19_COMPLETE searched=8522569895670 full_candidates=0
+FILTER_D20_COMPLETE searched=85225698957274 full_candidates=0
+MAIN_D21_COMPLETE pre_hits=346 full_candidates=0
+MAIN_D22_COMPLETE pre_hits=3446 full_candidates=0
+MAIN_D23_COMPLETE pre_hits=34413 full_candidates=0
+a(17)=553943104744829340555260
+c(17)=1234567891011121314151617
+full_modulus_remainder=0
+lower_digits_complete_through=24
+earlier_solutions=0
+minimum_of_all_saved_candidates=YES
+FINAL_A17_AUDIT_OK
+A17_COMPLETE 553943104744829340555260

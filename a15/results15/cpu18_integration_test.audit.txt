@@ -1,0 +1,1 @@
+CPU18_ISOLATED_WORKFLOW_OK clean_prefix_accepted=YES unfinished_prefix_rejected=YES simulated_only=YES

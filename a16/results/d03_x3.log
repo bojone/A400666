@@ -1,0 +1,4 @@
+
+COMMAND /mnt/moonfs/sujianlin-b0/sci/A400666/a16/search16 run d03_x3 3 3 93 125 65536 512
+progress name=d03_x3 next_x=125/125 rate=39118.8 elapsed=0.000818022 pre=0 hits=0
+DONE name=d03_x3 next_x=125 pre=0 hits=0

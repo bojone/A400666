@@ -1,0 +1,7 @@
+a(17)=553943104744829340555260
+c(17)=1234567891011121314151617
+full_modulus_remainder=0
+lower_digits_complete_through=24
+earlier_solutions=0
+minimum_of_all_saved_candidates=YES
+FINAL_A17_AUDIT_OK

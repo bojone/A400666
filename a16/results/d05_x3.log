@@ -1,0 +1,4 @@
+
+COMMAND /mnt/moonfs/sujianlin-b0/sci/A400666/a16/search16 run d05_x3 5 3 9375 12500 65536 512
+progress name=d05_x3 next_x=12500/12500 rate=3.47262e+06 elapsed=0.000899897 pre=0 hits=0
+DONE name=d05_x3 next_x=12500 pre=0 hits=0

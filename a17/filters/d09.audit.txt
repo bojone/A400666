@@ -1,0 +1,6 @@
+d=9
+period=80831956608
+residue_classes=76544
+direct_small_factor_checks=256
+primary_residue_formulas_verified=YES
+exact_candidates=807

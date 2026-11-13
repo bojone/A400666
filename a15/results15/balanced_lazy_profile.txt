@@ -1,0 +1,11 @@
+LAZY_KERNEL_NCU_PROFILE
+kernel=lazy_scan_kernel<1> device=0 blocks=4096 threads=1024 CC=10.0
+memory_throughput_percent=0.01 DRAM_throughput_percent=0.00
+compute_SM_throughput_percent=77.60 ALU_highest_pipeline_percent=78.91
+executed_IPC_active=2.57 issue_slots_busy_percent=64.18
+active_warps_per_scheduler=15.50 eligible_warps_per_scheduler=6.18
+warp_cycles_per_issued_instruction=24.16
+not_selected_stall_fraction_percent=35.71 execution_pipe_stall_fraction_percent=35.03
+registers=30 spills=0
+CONCLUSION=compute_bound_only no_memory_or_cache_bottleneck reduce_arithmetic_or_change_instruction_mix_only
+profiling_replay_rate_not_used_as_benchmark=YES production_search_not_stopped=YES

@@ -1,0 +1,28 @@
+search15_direct_counter.cu(19): warning #177-D: variable "PINV" was declared but never referenced
+  static constexpr u64 PINV = 12692191010489013751ULL;
+                       ^
+
+Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+
+search15_direct_counter.cu(21): warning #177-D: variable "TMAX" was declared but never referenced
+  static constexpr u64 TMAX = 486;
+                       ^
+
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function '_Z12trace_kernel3JobyPyi' for '[redacted]'
+ptxas info    : Function properties for _Z12trace_kernel3JobyPyi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 15 registers, used 0 barriers
+ptxas info    : Compile time = 16.602 ms
+ptxas info    : Compiling entry function '_Z16mont_test_kernelPKyS0_Pyi' for '[redacted]'
+ptxas info    : Function properties for _Z16mont_test_kernelPKyS0_Pyi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, used 0 barriers
+ptxas info    : Compile time = 3.037 ms
+ptxas info    : Compiling entry function '_Z11scan_kernel3JobyP3HitPii' for '[redacted]'
+ptxas info    : Function properties for _Z11scan_kernel3JobyP3HitPii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 28 registers, used 0 barriers
+ptxas info    : Compile time = 20.330 ms
+ptxas info    : Function properties for _Z9store_hitP3Hitiyy
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads

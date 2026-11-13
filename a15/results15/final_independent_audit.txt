@@ -1,0 +1,7 @@
+a(15)=70685893246361615705
+block_sums_remainder=0
+matrix_remainder=0
+cpu_searched=13333333333333331
+lower_intervals_complete_through_digit=20
+minimum_of_all_saved_candidates=YES
+FINAL_INDEPENDENT_AUDIT_OK

@@ -1,0 +1,5 @@
+MATRIX17_SELFTEST_OK literal=200 independent_cross_checks=103
+k=553943104744829340555260
+matrix_remainder_c17=0
+block_sums_remainder_c17=0
+INDEPENDENT_MATRIX17_VERIFIED full_modulus_remainder=0

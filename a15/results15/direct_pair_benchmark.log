@@ -1,0 +1,8 @@
+DIRECT_PAIR_BENCHMARK mode=serial repeat=0 tested=1073741824 rate=2.3787e+10 hits=0
+DIRECT_PAIR_BENCHMARK mode=pair repeat=0 tested=1073741824 rate=1.73685e+10 hits=0
+DIRECT_PAIR_BENCHMARK mode=serial repeat=1 tested=1073741824 rate=2.49716e+10 hits=0
+DIRECT_PAIR_BENCHMARK mode=pair repeat=1 tested=1073741824 rate=1.73562e+10 hits=0
+DIRECT_PAIR_BENCHMARK mode=serial repeat=2 tested=1073741824 rate=2.49754e+10 hits=0
+DIRECT_PAIR_BENCHMARK mode=pair repeat=2 tested=1073741824 rate=1.73495e+10 hits=0
+DIRECT_PAIR_BENCHMARK mode=serial repeat=3 tested=1073741824 rate=2.49971e+10 hits=0
+DIRECT_PAIR_BENCHMARK mode=pair repeat=3 tested=1073741824 rate=1.7345e+10 hits=0

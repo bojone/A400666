@@ -1,0 +1,6 @@
+
+COMMAND /mnt/moonfs/sujianlin-b0/sci/A400666/a16/search16 run d16_x3 16 3 57704373082 76939164110 65536 512
+progress name=d16_x3 next_x=66294307674/76939164110 rate=1.8488e+11 elapsed=0.0464622 pre=91 hits=0
+progress name=d16_x3 next_x=74884242266/76939164110 rate=1.85404e+11 elapsed=0.0927933 pre=188 hits=0
+progress name=d16_x3 next_x=76939164110/76939164110 rate=8.42494e+10 elapsed=0.117184 pre=207 hits=0
+DONE name=d16_x3 next_x=76939164110 pre=207 hits=0

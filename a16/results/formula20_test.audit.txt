@@ -1,0 +1,1 @@
+FORMULA20_GPU_PYTHON_OK x_points=1000000 pre_hits=114 full_candidates=0

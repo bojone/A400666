@@ -1,0 +1,12 @@
+a(16)=10152437877876943330588
+searched_digit_intervals=2..23
+main_wall_seconds=277.448
+small_digit_smoke_seconds=69.346
+main_exit_code=0
+gpu_count=8
+gpu_model=NVIDIA GPU
+cuda_version=12.9
+main_campaign=campaign16.log
+note=main_campaign_resumed_the_already_complete_2_to_6_digit_smoke_checkpoints
+full_candidates_in_23_digits=10
+final_audit=FINAL_A16_AUDIT_OK

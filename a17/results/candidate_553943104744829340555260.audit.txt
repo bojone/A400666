@@ -1,0 +1,14 @@
+candidate=553943104744829340555260
+d=24
+a=8
+x=68524741962902104
+t=631772
+R17=97423066131127417
+c17=1234567891011121314151617
+large_prime=584538396786764503
+coordinate_reconstruction=OK
+matrix_full_modulus_remainder=0
+matrix_cross_checked_against_literals_through=100
+literal_decimal_digits=13183523402764793062215153
+direct_literal_construction=INFEASIBLE_NOT_REQUIRED
+minimality=PENDING_D24_COMPLETION

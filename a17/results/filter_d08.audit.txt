@@ -1,0 +1,3 @@
+d=8
+searched=90
+full_candidates=0

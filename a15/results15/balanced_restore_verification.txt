@@ -1,0 +1,5 @@
+BALANCED_RESTORE_DRILL_OK snapshot=20261106T233110Z
+manifest_files=140 log_tails=29 source_recompiled=YES
+restored_job=d19_xb0 synthetic_prune_limit=23478971299528832 new_scanned_points=128
+all_15_restored_jobs_complete_under_test_bound=YES completed_resume_checkpoint_unchanged=YES
+snapshot_hashes_unchanged=YES interval_audit=YES temporary_files_removed=YES

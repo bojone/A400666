@@ -1,0 +1,10 @@
+UNSIGNED_MINMOD_EVALUATION
+addition=min(raw,raw-p) subtraction=min(raw,raw+p)
+arithmetic_pairs=204008 add_and_sub=OK
+independent_forced_residues=779 aligned=400 unaligned=379 result=OK
+registers=30 spills=0
+lazy_mean_rate=3.1502475e11 minmod_mean_rate=3.013e11 slowdown_percent=4.356721178256628
+CONCLUSION=NOT_DEPLOYED keep_lazy_small_filter
+current_production_binary_sha256=67e7b1fc23a73d66c1a0af5921742d122cc692596839ef824765362cd1c47e72
+minmod_binary_sha256=d0bdae7e26f9e52cb435ece95a0abf291019367024b312919f7ee19b2ffa797a
+minmod_source_sha256=72c70354ed922cf902e67b2b176920c31f01f4e1c81afa022935a3ed8f56ecdf

@@ -1,0 +1,4 @@
+PAIR18_BENCHMARK mode=0 repeat=0 tested=1099511627776 rate=3.0213e+11 x/s hits=0
+PAIR18_BENCHMARK mode=1 repeat=0 tested=1099511627776 rate=1.1235e+11 x/s hits=0
+PAIR18_BENCHMARK mode=0 repeat=1 tested=1099511627776 rate=3.00994e+11 x/s hits=0
+PAIR18_BENCHMARK mode=1 repeat=1 tested=1099511627776 rate=1.12323e+11 x/s hits=0

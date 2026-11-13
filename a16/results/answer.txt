@@ -1,0 +1,4 @@
+a(16)=10152437877876943330588
+c(16)=12345678910111213141516
+full_modulus_remainder=0
+All lower digit intervals completed and audited; no smaller solution exists.

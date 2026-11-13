@@ -1,0 +1,6 @@
+
+COMMAND /mnt/moonfs/sujianlin-b0/sci/A400666/a16/search16 run d19_x4 19 4 76939164110 96173955138 65536 512
+progress name=d19_x4 next_x=85529098702/96173955138 rate=4.38911e+09 elapsed=1.9571 pre=101728 hits=0
+progress name=d19_x4 next_x=94119033294/96173955138 rate=1.84184e+11 elapsed=2.00374 pre=203832 hits=0
+progress name=d19_x4 next_x=96173955138/96173955138 rate=8.39929e+10 elapsed=2.0282 pre=228232 hits=0
+DONE name=d19_x4 next_x=96173955138 pre=228232 hits=0

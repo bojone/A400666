@@ -1,0 +1,4 @@
+d=6
+method=bruteforce
+searched=900000
+full_candidates=0

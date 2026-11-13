@@ -1,0 +1,3 @@
+d=21
+pre_hits=346
+full_candidates=0

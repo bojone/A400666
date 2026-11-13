@@ -1,0 +1,9 @@
+
+COMMAND /mnt/moonfs/sujianlin-b0/sci/A400666/search run d13_a2 6 0 13 2 6 0 166666666667 1666666666667 65536 16384 1000000000000 9999999999999
+progress name=d13_a2 next_x=441544573611/1666666666667 fraction=0.183252 rate=3.86849e+11 x/s elapsed=0.710555 hits=0
+progress name=d13_a2 next_x=716422480555/1666666666667 fraction=0.366504 rate=3.86895e+11 x/s elapsed=1.42103 hits=0
+progress name=d13_a2 next_x=991300387499/1666666666667 fraction=0.549756 rate=3.86967e+11 x/s elapsed=2.13137 hits=0
+progress name=d13_a2 next_x=1266178294443/1666666666667 fraction=0.733008 rate=3.86968e+11 x/s elapsed=2.84171 hits=0
+progress name=d13_a2 next_x=1541056201387/1666666666667 fraction=0.91626 rate=3.86963e+11 x/s elapsed=3.55205 hits=0
+progress name=d13_a2 next_x=1666666666667/1666666666667 fraction=1 rate=3.83647e+11 x/s elapsed=3.87946 hits=0
+DONE name=d13_a2 next_x=1666666666667 hits=0

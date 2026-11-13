@@ -1,0 +1,26 @@
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function '_Z11scan_kernelILb0EEv3JobyPyPiP3Hit' for '[redacted]'
+ptxas info    : Function properties for _Z11scan_kernelILb0EEv3JobyPyPiP3Hit
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 38 registers, used 0 barriers
+ptxas info    : Compile time = 171.437 ms
+ptxas info    : Compiling entry function '_Z11scan_kernelILb1EEv3JobyPyPiP3Hit' for '[redacted]'
+ptxas info    : Function properties for _Z11scan_kernelILb1EEv3JobyPyPiP3Hit
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, used 0 barriers
+ptxas info    : Compile time = 95.730 ms
+ptxas info    : Compiling entry function '_Z12trace_kernel3JobyPyi' for '[redacted]'
+ptxas info    : Function properties for _Z12trace_kernel3JobyPyi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 15 registers, used 0 barriers
+ptxas info    : Compile time = 13.642 ms
+ptxas info    : Compiling entry function '_Z17fixed_test_kernelPKyS0_Pyi' for '[redacted]'
+ptxas info    : Function properties for _Z17fixed_test_kernelPKyS0_Pyi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, used 0 barriers
+ptxas info    : Compile time = 1.929 ms
+ptxas info    : Compiling entry function '_Z16mont_test_kernelPKyS0_Pyi' for '[redacted]'
+ptxas info    : Function properties for _Z16mont_test_kernelPKyS0_Pyi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, used 0 barriers
+ptxas info    : Compile time = 1.864 ms

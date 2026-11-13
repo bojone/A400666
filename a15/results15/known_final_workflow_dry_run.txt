@@ -1,0 +1,108 @@
+FINAL_WORKFLOW_DRY_RUN_OK simulated_coverage_only=YES no_minimality_claim=YES
+candidate=70685893246361615705 block_sums_remainder=0 matrix_remainder=0
+cpu_through_17=OK d18_entry=OK d19_balanced_entry=OK d20_entry=OK
+balanced_audit_return_code_fixed=True_returns_0=YES
+missing_d18_log_rejected=YES production_answer_file_not_created=YES
+source_snapshot=20261107T010559Z run15_d19_fix_copied_from_working_source=YES
+SUCCESS_OUTPUT
+INDEPENDENT_CANDIDATE_OK k=70685893246361615705 block_sums=0 matrix=0
+CPU_JOB_COMPLETE d=2 a=0 searched=5 candidates=0
+CPU_JOB_COMPLETE d=2 a=5 searched=6 candidates=0
+CPU_JOB_COMPLETE d=3 a=0 searched=60 candidates=0
+CPU_JOB_COMPLETE d=3 a=5 searched=60 candidates=0
+CPU_JOB_COMPLETE d=4 a=0 searched=600 candidates=0
+CPU_JOB_COMPLETE d=4 a=5 searched=600 candidates=0
+CPU_JOB_COMPLETE d=5 a=0 searched=6000 candidates=0
+CPU_JOB_COMPLETE d=5 a=5 searched=6000 candidates=0
+CPU_JOB_COMPLETE d=6 a=0 searched=60000 candidates=0
+CPU_JOB_COMPLETE d=6 a=5 searched=60000 candidates=0
+CPU_JOB_COMPLETE d=7 a=0 searched=600000 candidates=0
+CPU_JOB_COMPLETE d=7 a=5 searched=600000 candidates=0
+CPU_JOB_COMPLETE d=8 a=0 searched=6000000 candidates=0
+CPU_JOB_COMPLETE d=8 a=5 searched=6000000 candidates=0
+CPU_JOB_COMPLETE d=9 a=0 searched=60000000 candidates=0
+CPU_JOB_COMPLETE d=9 a=5 searched=60000000 candidates=0
+CPU_JOB_COMPLETE d=10 a=0 searched=600000000 candidates=0
+CPU_JOB_COMPLETE d=10 a=5 searched=600000000 candidates=0
+CPU_JOB_COMPLETE d=11 a=0 searched=6000000000 candidates=0
+CPU_JOB_COMPLETE d=11 a=5 searched=6000000000 candidates=0
+CPU_JOB_COMPLETE d=12 a=0 searched=60000000000 candidates=0
+CPU_JOB_COMPLETE d=12 a=5 searched=60000000000 candidates=0
+CPU_JOB_COMPLETE d=13 a=0 searched=600000000000 candidates=0
+CPU_JOB_COMPLETE d=13 a=5 searched=600000000000 candidates=0
+CPU_JOB_COMPLETE d=14 a=0 searched=6000000000000 candidates=0
+CPU_JOB_COMPLETE d=14 a=5 searched=6000000000000 candidates=0
+CPU_JOB_COMPLETE d=15 a=0 searched=60000000000000 candidates=0
+CPU_JOB_COMPLETE d=15 a=5 searched=60000000000000 candidates=0
+CPU_JOB_COMPLETE d=16 a=0 searched=600000000000000 candidates=0
+CPU_JOB_COMPLETE d=16 a=5 searched=600000000000000 candidates=0
+CPU_JOB_COMPLETE d=17 a=0 searched=6000000000000000 candidates=0
+CPU_JOB_COMPLETE d=17 a=5 searched=6000000000000000 candidates=0
+FINAL_CPU_COVERAGE_OK searched=13333333333333331 earlier_solutions=0
+D18_SEARCH_COMPLETE candidates=0
+BALANCED_D19_AUDIT_COMPLETE covered_or_pruned=823045260674080876/823045260674080876 candidates=[]
+VERIFIED_D20_CANDIDATE k=70685893246361615705 remainder_c15=0
+D20_SEARCH_COMPLETE candidates=1
+SMALLEST_D20_CANDIDATE=70685893246361615705; lower intervals still required for a(15)
+INDEPENDENT_CANDIDATE_OK k=70685893246361615705 block_sums=0 matrix=0
+a(15)=70685893246361615705
+block_sums_remainder=0
+matrix_remainder=0
+cpu_searched=13333333333333331
+lower_intervals_complete_through_digit=20
+minimum_of_all_saved_candidates=YES
+FINAL_INDEPENDENT_AUDIT_OK
+
+EXPECTED_NEGATIVE_OUTPUT
+INDEPENDENT_CANDIDATE_OK k=70685893246361615705 block_sums=0 matrix=0
+CPU_JOB_COMPLETE d=2 a=0 searched=5 candidates=0
+CPU_JOB_COMPLETE d=2 a=5 searched=6 candidates=0
+CPU_JOB_COMPLETE d=3 a=0 searched=60 candidates=0
+CPU_JOB_COMPLETE d=3 a=5 searched=60 candidates=0
+CPU_JOB_COMPLETE d=4 a=0 searched=600 candidates=0
+CPU_JOB_COMPLETE d=4 a=5 searched=600 candidates=0
+CPU_JOB_COMPLETE d=5 a=0 searched=6000 candidates=0
+CPU_JOB_COMPLETE d=5 a=5 searched=6000 candidates=0
+CPU_JOB_COMPLETE d=6 a=0 searched=60000 candidates=0
+CPU_JOB_COMPLETE d=6 a=5 searched=60000 candidates=0
+CPU_JOB_COMPLETE d=7 a=0 searched=600000 candidates=0
+CPU_JOB_COMPLETE d=7 a=5 searched=600000 candidates=0
+CPU_JOB_COMPLETE d=8 a=0 searched=6000000 candidates=0
+CPU_JOB_COMPLETE d=8 a=5 searched=6000000 candidates=0
+CPU_JOB_COMPLETE d=9 a=0 searched=60000000 candidates=0
+CPU_JOB_COMPLETE d=9 a=5 searched=60000000 candidates=0
+CPU_JOB_COMPLETE d=10 a=0 searched=600000000 candidates=0
+CPU_JOB_COMPLETE d=10 a=5 searched=600000000 candidates=0
+CPU_JOB_COMPLETE d=11 a=0 searched=6000000000 candidates=0
+CPU_JOB_COMPLETE d=11 a=5 searched=6000000000 candidates=0
+CPU_JOB_COMPLETE d=12 a=0 searched=60000000000 candidates=0
+CPU_JOB_COMPLETE d=12 a=5 searched=60000000000 candidates=0
+CPU_JOB_COMPLETE d=13 a=0 searched=600000000000 candidates=0
+CPU_JOB_COMPLETE d=13 a=5 searched=600000000000 candidates=0
+CPU_JOB_COMPLETE d=14 a=0 searched=6000000000000 candidates=0
+CPU_JOB_COMPLETE d=14 a=5 searched=6000000000000 candidates=0
+CPU_JOB_COMPLETE d=15 a=0 searched=60000000000000 candidates=0
+CPU_JOB_COMPLETE d=15 a=5 searched=60000000000000 candidates=0
+CPU_JOB_COMPLETE d=16 a=0 searched=600000000000000 candidates=0
+CPU_JOB_COMPLETE d=16 a=5 searched=600000000000000 candidates=0
+CPU_JOB_COMPLETE d=17 a=0 searched=6000000000000000 candidates=0
+CPU_JOB_COMPLETE d=17 a=5 searched=6000000000000000 candidates=0
+FINAL_CPU_COVERAGE_OK searched=13333333333333331 earlier_solutions=0
+Traceback (most recent call last):
+  File "/mnt/moonfs/sujianlin-b0/sci/A400666/results15/final_workflow_dry_run_r598l5er/audit15_final.py", line 79, in <module>
+    main()
+  File "/mnt/moonfs/sujianlin-b0/sci/A400666/results15/final_workflow_dry_run_r598l5er/audit15_final.py", line 75, in main
+    final_audit()
+  File "/mnt/moonfs/sujianlin-b0/sci/A400666/results15/final_workflow_dry_run_r598l5er/audit15_final.py", line 52, in final_audit
+    assert run15_d18.audit() == 0
+           ^^^^^^^^^^^^^^^^^
+  File "/mnt/moonfs/sujianlin-b0/sci/A400666/results15/final_workflow_dry_run_r598l5er/run15_d18.py", line 77, in audit
+    assert f"DONE name={name} next_x={x1}" in (RESULTS / f"{name}.log").read_text()
+                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.12/pathlib.py", line 1027, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.12/pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/moonfs/sujianlin-b0/sci/A400666/results15/final_workflow_dry_run_r598l5er/results15/d18_a0_x0.log'

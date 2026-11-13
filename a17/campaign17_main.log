@@ -1,0 +1,143 @@
+VERIFY17_SELFTEST_OK literal=100 earlier_scan_through=1000
+SELFTEST_OK montgomery=100000 concat=1100 small_factor=300 traces=512
+MAIN_DIGIT_START d=24
+TASK_EXIT d=24 a=0 device=2 rc=0
+TASK_EXIT d=24 a=0 device=0 rc=0
+TASK_EXIT d=24 a=8 device=7 rc=0
+TASK_EXIT d=24 a=8 device=4 rc=0
+TASK_EXIT d=24 a=0 device=3 rc=0
+TASK_EXIT d=24 a=8 device=5 rc=0
+TASK_EXIT d=24 a=0 device=1 rc=0
+TASK_EXIT d=24 a=8 device=6 rc=0
+CAMPAIGN17_ERROR ('d24_a0_x0', '365862494142464', 24355766532781854)
+Traceback (most recent call last):
+  File "/mnt/moonfs/sujianlin-b0/sci/A400666/a17/run17.py", line 127, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/mnt/moonfs/sujianlin-b0/sci/A400666/a17/run17.py", line 117, in main
+    candidates = run_digit(d)
+                 ^^^^^^^^^^^^
+  File "/mnt/moonfs/sujianlin-b0/sci/A400666/a17/run17.py", line 72, in run_digit
+    candidates = audit_main_digit(d)[1]
+                 ^^^^^^^^^^^^^^^^^^^
+  File "/mnt/moonfs/sujianlin-b0/sci/A400666/a17/verify17.py", line 90, in audit_main_digit
+    assert int(values["next_x"]) == end, (name, values["next_x"], end)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ('d24_a0_x0', '365862494142464', 24355766532781854)
+VERIFY17_SELFTEST_OK literal=100 earlier_scan_through=1000
+SELFTEST_OK montgomery=100000 concat=1100 small_factor=300 traces=512
+MAIN_DIGIT_START d=24
+TASK_EXIT d=24 a=0 device=0 rc=0
+TASK_EXIT d=24 a=8 device=5 rc=0
+TASK_EXIT d=24 a=0 device=3 rc=0
+TASK_EXIT d=24 a=0 device=1 rc=0
+TASK_EXIT d=24 a=8 device=4 rc=0
+TASK_EXIT d=24 a=8 device=7 rc=0
+TASK_EXIT d=24 a=0 device=2 rc=0
+TASK_EXIT d=24 a=8 device=6 rc=0
+CAMPAIGN17_ERROR ('d24_a0_x0', '387302970884096', 24355766532781854)
+Traceback (most recent call last):
+  File "/mnt/moonfs/sujianlin-b0/sci/A400666/a17/run17.py", line 127, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/mnt/moonfs/sujianlin-b0/sci/A400666/a17/run17.py", line 117, in main
+    candidates = run_digit(d)
+                 ^^^^^^^^^^^^
+  File "/mnt/moonfs/sujianlin-b0/sci/A400666/a17/run17.py", line 72, in run_digit
+    candidates = audit_main_digit(d)[1]
+                 ^^^^^^^^^^^^^^^^^^^
+  File "/mnt/moonfs/sujianlin-b0/sci/A400666/a17/verify17.py", line 90, in audit_main_digit
+    assert int(values["next_x"]) == end, (name, values["next_x"], end)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ('d24_a0_x0', '387302970884096', 24355766532781854)
+VERIFY17_SELFTEST_OK literal=100 earlier_scan_through=1000
+SELFTEST_OK montgomery=100000 concat=1100 small_factor=300 traces=512
+MAIN_DIGIT_START d=24
+TASK_EXIT d=24 a=0 device=1 rc=0
+TASK_EXIT d=24 a=0 device=2 rc=0
+TASK_EXIT d=24 a=0 device=3 rc=0
+TASK_EXIT d=24 a=8 device=4 rc=0
+TASK_EXIT d=24 a=8 device=7 rc=0
+TASK_EXIT d=24 a=0 device=0 rc=0
+TASK_EXIT d=24 a=8 device=6 rc=0
+TASK_EXIT d=24 a=8 device=5 rc=0
+CAMPAIGN17_ERROR ('d24_a0_x0', '583840674349056', 24355766532781854)
+Traceback (most recent call last):
+  File "/mnt/moonfs/sujianlin-b0/sci/A400666/a17/run17.py", line 127, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/mnt/moonfs/sujianlin-b0/sci/A400666/a17/run17.py", line 117, in main
+    candidates = run_digit(d)
+                 ^^^^^^^^^^^^
+  File "/mnt/moonfs/sujianlin-b0/sci/A400666/a17/run17.py", line 72, in run_digit
+    candidates = audit_main_digit(d)[1]
+                 ^^^^^^^^^^^^^^^^^^^
+  File "/mnt/moonfs/sujianlin-b0/sci/A400666/a17/verify17.py", line 90, in audit_main_digit
+    assert int(values["next_x"]) == end, (name, values["next_x"], end)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ('d24_a0_x0', '583840674349056', 24355766532781854)
+VERIFY17_SELFTEST_OK literal=100 earlier_scan_through=1000
+SELFTEST_OK montgomery=100000 concat=1100 small_factor=300 traces=512
+MAIN_DIGIT_START d=24
+TASK_EXIT d=24 a=8 device=6 rc=0
+TASK_EXIT d=24 a=0 device=2 rc=0
+TASK_EXIT d=24 a=8 device=4 rc=0
+TASK_EXIT d=24 a=8 device=5 rc=0
+TASK_EXIT d=24 a=0 device=0 rc=0
+TASK_EXIT d=24 a=0 device=3 rc=0
+TASK_EXIT d=24 a=8 device=7 rc=0
+TASK_EXIT d=24 a=0 device=1 rc=0
+CAMPAIGN17_ERROR ('d24_a0_x0', '640190645272576', 24355766532781854)
+Traceback (most recent call last):
+  File "/mnt/moonfs/sujianlin-b0/sci/A400666/a17/run17.py", line 127, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/mnt/moonfs/sujianlin-b0/sci/A400666/a17/run17.py", line 117, in main
+    candidates = run_digit(d)
+                 ^^^^^^^^^^^^
+  File "/mnt/moonfs/sujianlin-b0/sci/A400666/a17/run17.py", line 72, in run_digit
+    candidates = audit_main_digit(d)[1]
+                 ^^^^^^^^^^^^^^^^^^^
+  File "/mnt/moonfs/sujianlin-b0/sci/A400666/a17/verify17.py", line 90, in audit_main_digit
+    assert int(values["next_x"]) == end, (name, values["next_x"], end)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ('d24_a0_x0', '640190645272576', 24355766532781854)
+VERIFY17_SELFTEST_OK literal=100 earlier_scan_through=1000
+SELFTEST_OK montgomery=100000 concat=1100 small_factor=300 traces=512
+MAIN_DIGIT_START d=21
+TASK_EXIT d=21 a=0 device=2 rc=0
+TASK_EXIT d=21 a=8 device=4 rc=0
+TASK_EXIT d=21 a=0 device=0 rc=0
+TASK_EXIT d=21 a=8 device=7 rc=0
+TASK_EXIT d=21 a=0 device=3 rc=0
+TASK_EXIT d=21 a=8 device=5 rc=0
+TASK_EXIT d=21 a=0 device=1 rc=0
+TASK_EXIT d=21 a=8 device=6 rc=0
+CAMPAIGN17_ERROR ('d21_a0_x0', '350469331353600', 48711533065563708)
+Traceback (most recent call last):
+  File "/mnt/moonfs/sujianlin-b0/sci/A400666/a17/run17.py", line 127, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/mnt/moonfs/sujianlin-b0/sci/A400666/a17/run17.py", line 117, in main
+    candidates = run_digit(d)
+                 ^^^^^^^^^^^^
+  File "/mnt/moonfs/sujianlin-b0/sci/A400666/a17/run17.py", line 72, in run_digit
+    candidates = audit_main_digit(d)[1]
+                 ^^^^^^^^^^^^^^^^^^^
+  File "/mnt/moonfs/sujianlin-b0/sci/A400666/a17/verify17.py", line 88, in audit_main_digit
+    assert int(values["next_x"]) == end, (name, values["next_x"], end)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ('d21_a0_x0', '350469331353600', 48711533065563708)
+VERIFY17_SELFTEST_OK literal=100 earlier_scan_through=1000
+SELFTEST_OK montgomery=100000 concat=1100 small_factor=300 traces=512
+MAIN_DIGIT_START d=24
+TASK_EXIT d=24 a=8 device=6 rc=0
+TASK_EXIT d=24 a=0 device=3 rc=0
+TASK_EXIT d=24 a=8 device=5 rc=0
+TASK_EXIT d=24 a=0 device=2 rc=0
+TASK_EXIT d=24 a=8 device=7 rc=0
+TASK_EXIT d=24 a=0 device=0 rc=0
+TASK_EXIT d=24 a=8 device=4 rc=0
+TASK_EXIT d=24 a=0 device=1 rc=0
+MAIN_D24_COMPLETE pre_hits=343046 full_candidates=1
+MAIN_CANDIDATE_FOUND d=24 k=553943104744829340555260

@@ -1,0 +1,29 @@
+__pycache__/
+*.py[cod]
+*.tmp
+*.swp
+*.swo
+
+# Locally built executables; the evidence logs and source hashes are retained.
+a14/src/search
+a14/src/verify_oeis
+a16/src/search16
+a17/src/search17
+a17/src/filter17
+a15/src/search15_d19_fast
+a15/src/search15_d21_fast
+a15/src/search15_b1024_signed
+a15/src/search15_balanced
+a15/src/search15_direct_signed
+a15/src/cpu15_avx
+a15/src/cpu15_shared
+a15/src/cpu15_shared_a5
+
+# Local experiment, profiling, and newly generated snapshot artifacts.
+a15/results15/snapshots/
+a17/results/snapshots/
+a17/results/stop
+a15/experiments/.build/
+*.ncu-rep
+*.nsys-rep
+core

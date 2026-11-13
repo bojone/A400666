@@ -1,0 +1,4 @@
+LONG search17_unroll4 repeat=0 launches=16 aggregate=4.958237998e+11 first=4.956780000e+11 last=4.958290000e+11
+LONG search17_unroll16 repeat=0 launches=16 aggregate=4.981477982e+11 first=4.979450000e+11 last=4.982400000e+11
+LONG search17_unroll4 repeat=1 launches=16 aggregate=4.957638523e+11 first=4.955210000e+11 last=4.959080000e+11
+LONG search17_unroll16 repeat=1 launches=16 aggregate=4.981197951e+11 first=4.979760000e+11 last=4.980140000e+11

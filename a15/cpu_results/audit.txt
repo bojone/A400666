@@ -1,0 +1,1 @@
+CPU_AUDIT_OK through_digit=17 extras=[] searched=13333333333333331 earlier_solutions=0

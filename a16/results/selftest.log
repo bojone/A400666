@@ -1,0 +1,1 @@
+SELFTEST_OK montgomery=100000 table_pow=100000 concat_small=1000 concat_large=100

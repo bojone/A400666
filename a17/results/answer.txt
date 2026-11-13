@@ -1,0 +1,4 @@
+a(17)=553943104744829340555260
+c(17)=1234567891011121314151617
+full_modulus_remainder=0
+All lower intervals required for minimality have been completed and audited.

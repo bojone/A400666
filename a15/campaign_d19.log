@@ -1,0 +1,220 @@
+DEVICE_EXIT device=0 rc=-15
+DEVICE_EXIT device=1 rc=-15
+DEVICE_EXIT device=5 rc=-15
+DEVICE_EXIT device=3 rc=-15
+DEVICE_EXIT device=4 rc=-15
+DEVICE_EXIT device=7 rc=-15
+DEVICE_EXIT device=2 rc=-15
+DEVICE_EXIT device=6 rc=-15
+FAILURES [-15, -15, -15, -15, -15, -15, -15, -15]
+DEVICE_JOB_EXIT device=4 name=d19_xb7 rc=0
+Exception in thread Thread-1 (<lambda>):
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.12/threading.py", line 1075, in _bootstrap_inner
+Exception in thread Thread-2 (<lambda>):
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.12/threading.py", line 1075, in _bootstrap_inner
+Exception in thread Thread-3 (<lambda>):
+    self.run()
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.12/threading.py", line 1012, in run
+    self.run()
+Exception in thread Thread-6 (<lambda>):
+Exception in thread Thread-7 (<lambda>):
+  File "/opt/conda/lib/python3.12/threading.py", line 1075, in _bootstrap_inner
+Exception in thread Thread-4 (<lambda>):
+    self._target(*self._args, **self._kwargs)
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/mnt/moonfs/sujianlin-b0/sci/A400666/balance15_d19.py", line 277, in <lambda>
+  File "/opt/conda/lib/python3.12/threading.py", line 1075, in _bootstrap_inner
+    self.run()
+Exception in thread Thread-5 (<lambda>):
+  File "/opt/conda/lib/python3.12/threading.py", line 1012, in run
+  File "/opt/conda/lib/python3.12/threading.py", line 1075, in _bootstrap_inner
+  File "/opt/conda/lib/python3.12/threading.py", line 1012, in run
+Traceback (most recent call last):
+Exception in thread Thread-8 (<lambda>):
+  File "/opt/conda/lib/python3.12/threading.py", line 1075, in _bootstrap_inner
+  File "/opt/conda/lib/python3.12/threading.py", line 1075, in _bootstrap_inner
+    threads = [threading.Thread(target=lambda d=gpu: worker(d, assigned, results)) for gpu in range(8)]
+Traceback (most recent call last):
+    self.run()
+    self._target(*self._args, **self._kwargs)
+    self.run()
+    self._target(*self._args, **self._kwargs)
+    self.run()
+    self.run()
+  File "/opt/conda/lib/python3.12/threading.py", line 1075, in _bootstrap_inner
+  File "/opt/conda/lib/python3.12/threading.py", line 1012, in run
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/moonfs/sujianlin-b0/sci/A400666/balance15_d19.py", line 277, in <lambda>
+  File "/opt/conda/lib/python3.12/threading.py", line 1012, in run
+  File "/opt/conda/lib/python3.12/threading.py", line 1012, in run
+  File "/opt/conda/lib/python3.12/threading.py", line 1012, in run
+  File "/mnt/moonfs/sujianlin-b0/sci/A400666/balance15_d19.py", line 277, in <lambda>
+    self._target(*self._args, **self._kwargs)
+    self.run()
+  File "/mnt/moonfs/sujianlin-b0/sci/A400666/balance15_d19.py", line 252, in worker
+  File "/mnt/moonfs/sujianlin-b0/sci/A400666/balance15_d19.py", line 277, in <lambda>
+    self._target(*self._args, **self._kwargs)
+    threads = [threading.Thread(target=lambda d=gpu: worker(d, assigned, results)) for gpu in range(8)]
+    threads = [threading.Thread(target=lambda d=gpu: worker(d, assigned, results)) for gpu in range(8)]
+    rc = subprocess.run(cmd, cwd=ROOT, stdout=log, stderr=subprocess.STDOUT).returncode
+  File "/mnt/moonfs/sujianlin-b0/sci/A400666/balance15_d19.py", line 277, in <lambda>
+    self._target(*self._args, **self._kwargs)
+    self._target(*self._args, **self._kwargs)
+  File "/opt/conda/lib/python3.12/threading.py", line 1012, in run
+    threads = [threading.Thread(target=lambda d=gpu: worker(d, assigned, results)) for gpu in range(8)]
+  File "/mnt/moonfs/sujianlin-b0/sci/A400666/balance15_d19.py", line 277, in <lambda>
+    threads = [threading.Thread(target=lambda d=gpu: worker(d, assigned, results)) for gpu in range(8)]
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/moonfs/sujianlin-b0/sci/A400666/balance15_d19.py", line 252, in worker
+  File "/mnt/moonfs/sujianlin-b0/sci/A400666/balance15_d19.py", line 277, in <lambda>
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.12/subprocess.py", line 548, in run
+    threads = [threading.Thread(target=lambda d=gpu: worker(d, assigned, results)) for gpu in range(8)]
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/moonfs/sujianlin-b0/sci/A400666/balance15_d19.py", line 252, in worker
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/moonfs/sujianlin-b0/sci/A400666/balance15_d19.py", line 252, in worker
+  File "/mnt/moonfs/sujianlin-b0/sci/A400666/balance15_d19.py", line 252, in worker
+    self._target(*self._args, **self._kwargs)
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    with Popen(*popenargs, **kwargs) as process:
+    rc = subprocess.run(cmd, cwd=ROOT, stdout=log, stderr=subprocess.STDOUT).returncode
+    rc = subprocess.run(cmd, cwd=ROOT, stdout=log, stderr=subprocess.STDOUT).returncode
+    rc = subprocess.run(cmd, cwd=ROOT, stdout=log, stderr=subprocess.STDOUT).returncode
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.12/subprocess.py", line 1026, in __init__
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.12/subprocess.py", line 548, in run
+  File "/mnt/moonfs/sujianlin-b0/sci/A400666/balance15_d19.py", line 252, in worker
+  File "/mnt/moonfs/sujianlin-b0/sci/A400666/balance15_d19.py", line 277, in <lambda>
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.12/subprocess.py", line 548, in run
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    rc = subprocess.run(cmd, cwd=ROOT, stdout=log, stderr=subprocess.STDOUT).returncode
+    threads = [threading.Thread(target=lambda d=gpu: worker(d, assigned, results)) for gpu in range(8)]
+    rc = subprocess.run(cmd, cwd=ROOT, stdout=log, stderr=subprocess.STDOUT).returncode
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    threads = [threading.Thread(target=lambda d=gpu: worker(d, assigned, results)) for gpu in range(8)]
+  File "/opt/conda/lib/python3.12/subprocess.py", line 548, in run
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/moonfs/sujianlin-b0/sci/A400666/balance15_d19.py", line 252, in worker
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.12/subprocess.py", line 548, in run
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/moonfs/sujianlin-b0/sci/A400666/balance15_d19.py", line 252, in worker
+  File "/opt/conda/lib/python3.12/subprocess.py", line 1955, in _execute_child
+    with Popen(*popenargs, **kwargs) as process:
+    with Popen(*popenargs, **kwargs) as process:
+  File "/opt/conda/lib/python3.12/subprocess.py", line 548, in run
+    with Popen(*popenargs, **kwargs) as process:
+    with Popen(*popenargs, **kwargs) as process:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    raise child_exception_type(errno_num, err_msg, err_filename)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.12/subprocess.py", line 1026, in __init__
+    with Popen(*popenargs, **kwargs) as process:
+  File "/opt/conda/lib/python3.12/subprocess.py", line 1026, in __init__
+  File "/opt/conda/lib/python3.12/subprocess.py", line 1026, in __init__
+PermissionError: [Errno 13] Permission denied: '/mnt/moonfs/sujianlin-b0/sci/A400666/search15_balanced'
+    self._execute_child(args, executable, preexec_fn, close_fds,
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.12/subprocess.py", line 1026, in __init__
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    rc = subprocess.run(cmd, cwd=ROOT, stdout=log, stderr=subprocess.STDOUT).returncode
+    rc = subprocess.run(cmd, cwd=ROOT, stdout=log, stderr=subprocess.STDOUT).returncode
+  File "/opt/conda/lib/python3.12/subprocess.py", line 1955, in _execute_child
+    self._execute_child(args, executable, preexec_fn, close_fds,
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.12/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    raise child_exception_type(errno_num, err_msg, err_filename)
+  File "/opt/conda/lib/python3.12/subprocess.py", line 548, in run
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/opt/conda/lib/python3.12/subprocess.py", line 1955, in _execute_child
+PermissionError: [Errno 13] Permission denied: '/mnt/moonfs/sujianlin-b0/sci/A400666/search15_balanced'
+  File "/opt/conda/lib/python3.12/subprocess.py", line 1955, in _execute_child
+  File "/opt/conda/lib/python3.12/subprocess.py", line 548, in run
+  File "/opt/conda/lib/python3.12/subprocess.py", line 1955, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+  File "/opt/conda/lib/python3.12/subprocess.py", line 1955, in _execute_child
+    with Popen(*popenargs, **kwargs) as process:
+    raise child_exception_type(errno_num, err_msg, err_filename)
+    raise child_exception_type(errno_num, err_msg, err_filename)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/mnt/moonfs/sujianlin-b0/sci/A400666/search15_balanced'
+    raise child_exception_type(errno_num, err_msg, err_filename)
+    with Popen(*popenargs, **kwargs) as process:
+PermissionError: [Errno 13] Permission denied: '/mnt/moonfs/sujianlin-b0/sci/A400666/search15_balanced'
+PermissionError: [Errno 13] Permission denied: '/mnt/moonfs/sujianlin-b0/sci/A400666/search15_balanced'
+  File "/opt/conda/lib/python3.12/subprocess.py", line 1026, in __init__
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/mnt/moonfs/sujianlin-b0/sci/A400666/search15_balanced'
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/opt/conda/lib/python3.12/subprocess.py", line 1026, in __init__
+  File "/opt/conda/lib/python3.12/subprocess.py", line 1955, in _execute_child
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/opt/conda/lib/python3.12/subprocess.py", line 1955, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+PermissionError: [Errno 13] Permission denied: '/mnt/moonfs/sujianlin-b0/sci/A400666/search15_balanced'
+    raise child_exception_type(errno_num, err_msg, err_filename)
+PermissionError: [Errno 13] Permission denied: '/mnt/moonfs/sujianlin-b0/sci/A400666/search15_balanced'
+BALANCED_D19_CHECKPOINT_OK covered_or_pruned=589138121371680768/823045260674080876 fraction=71.5803% x_limit=823045260674080876
+DEVICE_JOB_EXIT device=4 name=d19_xb7 rc=0
+DEVICE_JOB_EXIT device=4 name=d19_xb7 rc=0
+DEVICE_JOB_EXIT device=4 name=d19_xb8 rc=0
+DEVICE_JOB_EXIT device=0 name=d19_xb0 rc=0
+DEVICE_JOB_EXIT device=5 name=d19_xb10 rc=0
+DEVICE_JOB_EXIT device=1 name=d19_xb2 rc=0
+DEVICE_JOB_EXIT device=6 name=d19_xb12 rc=0
+DEVICE_JOB_EXIT device=2 name=d19_xb4 rc=0
+DEVICE_JOB_EXIT device=6 name=d19_xb13 rc=0
+DEVICE_JOB_EXIT device=3 name=d19_xb6 rc=0
+DEVICE_JOB_EXIT device=5 name=d19_xb11 rc=0
+DEVICE_JOB_EXIT device=2 name=d19_xb5 rc=0
+DEVICE_JOB_EXIT device=7 name=d19_xb14 rc=0
+DEVICE_JOB_EXIT device=4 name=d19_xb9 rc=0
+DEVICE_JOB_EXIT device=1 name=d19_xb3 rc=0
+DEVICE_JOB_EXIT device=0 name=d19_xb1 rc=0
+BALANCED_D19_AUDIT_COMPLETE covered_or_pruned=823045260674080876/823045260674080876 candidates=[]
+DEVICE_JOB_EXIT device=3 name=d19_xb6 rc=0
+DEVICE_JOB_EXIT device=1 name=d19_xb2 rc=0
+DEVICE_JOB_EXIT device=0 name=d19_xb0 rc=0
+DEVICE_JOB_EXIT device=2 name=d19_xb4 rc=0
+DEVICE_JOB_EXIT device=7 name=d19_xb14 rc=0
+DEVICE_JOB_EXIT device=4 name=d19_xb7 rc=0
+DEVICE_JOB_EXIT device=6 name=d19_xb12 rc=0
+DEVICE_JOB_EXIT device=5 name=d19_xb10 rc=0
+DEVICE_JOB_EXIT device=6 name=d19_xb13 rc=0
+DEVICE_JOB_EXIT device=0 name=d19_xb1 rc=0
+DEVICE_JOB_EXIT device=1 name=d19_xb3 rc=0
+DEVICE_JOB_EXIT device=2 name=d19_xb5 rc=0
+DEVICE_JOB_EXIT device=4 name=d19_xb8 rc=0
+DEVICE_JOB_EXIT device=5 name=d19_xb11 rc=0
+DEVICE_JOB_EXIT device=4 name=d19_xb9 rc=0
+BALANCED_D19_AUDIT_COMPLETE covered_or_pruned=823045260674080876/823045260674080876 candidates=[]
+DEVICE_JOB_EXIT device=3 name=d19_xb6 rc=0
+DEVICE_JOB_EXIT device=1 name=d19_xb2 rc=0
+DEVICE_JOB_EXIT device=7 name=d19_xb14 rc=0
+DEVICE_JOB_EXIT device=4 name=d19_xb7 rc=0
+DEVICE_JOB_EXIT device=0 name=d19_xb0 rc=0
+DEVICE_JOB_EXIT device=5 name=d19_xb10 rc=0
+DEVICE_JOB_EXIT device=2 name=d19_xb4 rc=0
+DEVICE_JOB_EXIT device=6 name=d19_xb12 rc=0
+DEVICE_JOB_EXIT device=1 name=d19_xb3 rc=0
+DEVICE_JOB_EXIT device=5 name=d19_xb11 rc=0
+DEVICE_JOB_EXIT device=0 name=d19_xb1 rc=0
+DEVICE_JOB_EXIT device=4 name=d19_xb8 rc=0
+DEVICE_JOB_EXIT device=6 name=d19_xb13 rc=0
+DEVICE_JOB_EXIT device=2 name=d19_xb5 rc=0
+DEVICE_JOB_EXIT device=4 name=d19_xb9 rc=0
+BALANCED_D19_AUDIT_COMPLETE covered_or_pruned=823045260674080876/823045260674080876 candidates=[]

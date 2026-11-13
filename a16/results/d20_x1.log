@@ -1,0 +1,6 @@
+
+COMMAND /mnt/moonfs/sujianlin-b0/sci/A400666/a16/search16 run d20_x1 20 1 19234791027 38469582055 65536 512
+progress name=d20_x1 next_x=27824725619/38469582055 rate=1.84277e+11 elapsed=0.0466142 pre=1021838 hits=0
+progress name=d20_x1 next_x=36414660211/38469582055 rate=1.84674e+11 elapsed=0.0931282 pre=2040936 hits=0
+progress name=d20_x1 next_x=38469582055/38469582055 rate=8.3973e+10 elapsed=0.117599 pre=2285076 hits=0
+DONE name=d20_x1 next_x=38469582055 pre=2285076 hits=0

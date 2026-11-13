@@ -1,0 +1,18 @@
+NEGATIVE_LINEAR_STEPS_VERIFICATION
+formula=(w+s) mod p = (w-(p-s)) mod p; signed correction adds p exactly once when negative
+additions_tested=200008 independent_trace_points=1280 result=OK
+forced_filter_tests=379,400,379,239 arbitrary_pruned_points=259 arbitrary_aligned_points=320 result=OK
+default_control_scan_sass=IDENTICAL_TO_PRE_NEGSTEP
+registers=32 no_spills=YES
+full_benchmark_signed_rates=3.00091e11,3.00286e11,3.0018e11,3.00256e11
+production_negstep_rates=3.04232e11,3.04204e11,3.04033e11,3.0379e11
+production_speedup_percent=1.2862952016675422
+full_coset_simulation_points=32000 checkpoint_resume=OK prune_resume=OK interval_audit=OK
+old_binary_sha256=e8648053cad5ea67ceda6de12d0446b35dff718443943a48cb0fdb962f42d5de
+new_binary_sha256=44706b41db994928d19bac1cdb3e1717112effa8edfcce58085e36f42c7bf8ac
+source_sha256=3090ce1039e9216f3ec4f5c36f681ba7a9dee6541b095b2bc01da042364a0e13
+compile_flag=-DNEGATIVE_LINEAR_STEPS
+DEPLOYMENT_PERMISSION_ISSUE resolved=YES cause=copyfile_default_mode fix=explicit_755 binary_hashes_unchanged=YES direct_selftest=OK
+NEGSTEP_CURRENT_8GPU_MEAN_RATE=6.842264375e11 speedup_percent=1.5172755934718118 all_eight_gpus_active=YES
+old_binary=search15_balanced_pre_negstep executable_permission=755
+status_rate=6.842e11

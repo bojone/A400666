@@ -1,0 +1,20 @@
+SELFTEST_OK search17
+SELFTEST_OK search17_unroll4_low32
+SELFTEST_OK search17_unroll8
+SELFTEST_OK search17_unroll16
+BENCH search17 repeat=0 rate=4.72163e+11
+BENCH search17_unroll4_low32 repeat=0 rate=4.87716e+11
+BENCH search17_unroll8 repeat=0 rate=4.91e+11
+BENCH search17_unroll16 repeat=0 rate=4.97949e+11
+BENCH search17 repeat=1 rate=4.7209e+11
+BENCH search17_unroll4_low32 repeat=1 rate=4.87828e+11
+BENCH search17_unroll8 repeat=1 rate=4.91412e+11
+BENCH search17_unroll16 repeat=1 rate=4.97959e+11
+BENCH search17 repeat=2 rate=4.72134e+11
+BENCH search17_unroll4_low32 repeat=2 rate=4.8734e+11
+BENCH search17_unroll8 repeat=2 rate=4.91396e+11
+BENCH search17_unroll16 repeat=2 rate=4.97883e+11
+BENCH search17 repeat=3 rate=4.72126e+11
+BENCH search17_unroll4_low32 repeat=3 rate=4.87833e+11
+BENCH search17_unroll8 repeat=3 rate=4.91311e+11
+BENCH search17_unroll16 repeat=3 rate=4.97981e+11

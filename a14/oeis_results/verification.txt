@@ -1,0 +1,14 @@
+n=1 a(1)=2 remainder=0 earlier_solutions=0 status=VERIFIED (2 is the least integer greater than 1)
+n=2 a(2)=6 remainder=0 searched=3 earlier_solutions=0 status=VERIFIED
+n=3 a(3)=23 remainder=0 searched=19 earlier_solutions=0 status=VERIFIED
+n=4 a(4)=1838 remainder=0 searched=1833 earlier_solutions=0 status=VERIFIED
+n=5 a(5)=15000 remainder=0 searched=14994 earlier_solutions=0 status=VERIFIED
+n=6 a(6)=6992 remainder=0 searched=6985 earlier_solutions=0 status=VERIFIED
+n=7 a(7)=2888377 remainder=0 searched=2888369 earlier_solutions=0 status=VERIFIED
+n=8 a(8)=795420 remainder=0 searched=795411 earlier_solutions=0 status=VERIFIED
+n=9 a(9)=37366496 remainder=0 searched=37366486 earlier_solutions=0 status=VERIFIED
+n=10 a(10)=8803255110 remainder=0 searched=8803255099 earlier_solutions=0 status=VERIFIED
+n=11 a(11)=1462927131789 remainder=0 searched=1462927131777 earlier_solutions=0 status=VERIFIED
+n=12 a(12)=36810773632272 remainder=0 searched=36810773632259 earlier_solutions=0 status=VERIFIED
+n=13 a(13)=2879846318370304 remainder=0 searched=2879846318370290 earlier_solutions=0 status=VERIFIED
+ALL_FIRST_13_VERIFIED: divisibility and minimality confirmed

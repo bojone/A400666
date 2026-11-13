@@ -1,0 +1,21 @@
+LAZY_SMALL_FILTER_VERIFICATION
+formula_addition=(raw<=2 || raw-p<=2)
+formula_subtraction=(raw<=2 || raw+p<=2)
+raw_is_canonical_modular_residue_only_inside_hit_branch=YES
+predicate_pairs=204008 positive_add=1503 positive_sub=1508 result=OK
+independent_forced_residues=779 aligned=400 unaligned=379 result=OK
+production_forced_filter_tests=379,400,379,239 arbitrary_pruned_points=259 arbitrary_aligned_points=320 result=OK
+default_control_all_scan_sass=IDENTICAL_TO_NEGATIVE_STEP_PRODUCTION
+aligned_production_sass=IDENTICAL_TO_VALIDATED_PROTOTYPE
+registers_production=32 registers_lazy=30 spills=0
+full_benchmark_production_rates=3.07856e11,3.07963e11,3.07897e11,3.07879e11
+full_benchmark_lazy_rates=3.18854e11,3.1886e11,3.18962e11,3.18938e11
+full_benchmark_speedup_percent=3.5741457216049044
+full_coset_simulation_points=32000 checkpoint_resume=OK prune_resume=OK interval_audit=OK
+old_binary_sha256=44706b41db994928d19bac1cdb3e1717112effa8edfcce58085e36f42c7bf8ac
+new_binary_sha256=67e7b1fc23a73d66c1a0af5921742d122cc692596839ef824765362cd1c47e72
+source_sha256=9974022c5a258d3243b7cf25d062a56ff980f6fbdf76ffa9f3736f678dc75862
+compile_flags=-DNEGATIVE_LINEAR_STEPS -DLAZY_SMALL_FILTER
+DEPLOYED executable_permission=755 direct_selftest=OK checkpoint_audit=OK old_binary=search15_balanced_pre_lazy
+LAZY_CURRENT_8GPU_MEAN_RATE=7.0512675e11 speedup_over_negative_step_percent=3.054590023788717 all_eight_gpus_active=YES
+status_rate=7.051e11

@@ -1,0 +1,8 @@
+sms=148 max_threads_per_sm=2048 registers_per_sm=65536
+block=128 resident_blocks=12 warps=48
+block=256 resident_blocks=6 warps=48
+block=384 resident_blocks=4 warps=48
+block=512 resident_blocks=3 warps=48
+block=640 resident_blocks=2 warps=40
+block=768 resident_blocks=2 warps=48
+block=1024 resident_blocks=1 warps=32

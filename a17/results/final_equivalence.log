@@ -1,0 +1,4 @@
+FINAL_OPTIMIZATION_IDENTICAL pre=4 hits=0
+progress name=equiv24_final next_x=1099635084565/2199146712341 rate=5.23606e+11 elapsed=2.09989 pre=2 hits=0
+progress name=equiv24_final next_x=2199146712341/2199146712341 rate=5.23675e+11 elapsed=4.19949 pre=4 hits=0
+DONE name=equiv24_final next_x=2199146712341 pre=4 hits=0

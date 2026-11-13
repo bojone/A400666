@@ -1,0 +1,3 @@
+lazy predicates ok: random=100000 directed=6000 positives=0
+lazy GPU scan hit ok: known k=15 x=1 t=0
+selftest ok: 100000 general and 100000 odd-fixed Montgomery products, concatenation cross-checks, five 64-point traces, stepped known k=15 scan, 134 independent d18 GPU remainders

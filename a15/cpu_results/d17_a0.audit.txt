@@ -1,0 +1,1 @@
+CPU_D17_A0_AUDIT_OK searched=6000000000000000 earlier_solutions=0

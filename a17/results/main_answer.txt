@@ -1,0 +1,5 @@
+a(17)=553943104744829340555260
+c(17)=1234567891011121314151617
+full_modulus_remainder=0
+main_digit_complete=24
+lower_filter_audit_required=YES

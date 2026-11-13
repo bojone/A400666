@@ -1,0 +1,1 @@
+FILTER_SELFTEST_OK scalar=100000 vector_batches=10000 trace_points=512

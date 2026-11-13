@@ -1,0 +1,21 @@
+SELFTEST_OK search17_unroll16
+SELFTEST_OK search17_unroll32
+SELFTEST_OK search17_dual
+BENCH d=21 search17_unroll16 repeat=0 aggregate=4.981999561e+11 pre=0 hits=0
+BENCH d=21 search17_unroll32 repeat=0 aggregate=4.809368301e+11 pre=0 hits=0
+BENCH d=21 search17_dual repeat=0 aggregate=4.972609647e+11 pre=0 hits=0
+BENCH d=21 search17_unroll16 repeat=1 aggregate=4.982242465e+11 pre=0 hits=0
+BENCH d=21 search17_unroll32 repeat=1 aggregate=4.807719842e+11 pre=0 hits=0
+BENCH d=21 search17_dual repeat=1 aggregate=4.971744588e+11 pre=0 hits=0
+BENCH d=21 search17_unroll16 repeat=2 aggregate=4.981879905e+11 pre=0 hits=0
+BENCH d=21 search17_unroll32 repeat=2 aggregate=4.809334588e+11 pre=0 hits=0
+BENCH d=21 search17_dual repeat=2 aggregate=4.972209352e+11 pre=0 hits=0
+BENCH d=21 search17_unroll16 repeat=3 aggregate=4.982079715e+11 pre=0 hits=0
+BENCH d=21 search17_unroll32 repeat=3 aggregate=4.810214620e+11 pre=0 hits=0
+BENCH d=21 search17_dual repeat=3 aggregate=4.970752231e+11 pre=0 hits=0
+BENCH d=24 search17_unroll16 repeat=0 aggregate=4.980797105e+11 pre=2 hits=0
+BENCH d=24 search17_unroll32 repeat=0 aggregate=4.809106909e+11 pre=2 hits=0
+BENCH d=24 search17_dual repeat=0 aggregate=4.970364656e+11 pre=2 hits=0
+BENCH d=24 search17_unroll16 repeat=1 aggregate=4.980386916e+11 pre=2 hits=0
+BENCH d=24 search17_unroll32 repeat=1 aggregate=4.809679459e+11 pre=2 hits=0
+BENCH d=24 search17_dual repeat=1 aggregate=4.970254714e+11 pre=2 hits=0

@@ -1,0 +1,110 @@
+START device=0 task=d18_x0 work=1905197362671483
+START device=1 task=d18_x1 work=1905197362671484
+START device=2 task=d17_a0_x2 work=1905197362671483
+START device=3 task=d17_a0_x3 work=1905197362671484
+START device=4 task=d17_a2_x4 work=1905197362671483
+START device=5 task=d17_a2_x5 work=1905197362671484
+START device=6 task=d02_a0 work=14
+START device=7 task=d16_a0 work=1500000000000000
+FINISH device=6 task=d02_a0
+START device=6 task=d02_a2 work=14
+FINISH device=6 task=d02_a2
+START device=6 task=d03_a0 work=150
+FINISH device=6 task=d03_a0
+START device=6 task=d03_a2 work=150
+FINISH device=6 task=d03_a2
+START device=6 task=d04_a0 work=1500
+FINISH device=6 task=d04_a0
+START device=6 task=d04_a2 work=1500
+FINISH device=6 task=d04_a2
+START device=6 task=d05_a0 work=15000
+FINISH device=6 task=d05_a0
+START device=6 task=d05_a2 work=15000
+FINISH device=6 task=d05_a2
+START device=6 task=d06_a0 work=150000
+FINISH device=6 task=d06_a0
+START device=6 task=d06_a2 work=150000
+FINISH device=6 task=d06_a2
+START device=6 task=d07_a0 work=1500000
+FINISH device=6 task=d07_a0
+START device=6 task=d07_a2 work=1500000
+FINISH device=6 task=d07_a2
+START device=6 task=d08_a0 work=15000000
+FINISH device=6 task=d08_a0
+START device=6 task=d08_a2 work=15000000
+FINISH device=6 task=d08_a2
+START device=6 task=d09_a0 work=150000000
+FINISH device=6 task=d09_a0
+START device=6 task=d09_a2 work=150000000
+FINISH device=6 task=d09_a2
+START device=6 task=d10_a0 work=1500000000
+FINISH device=6 task=d10_a0
+START device=6 task=d10_a2 work=1500000000
+FINISH device=6 task=d10_a2
+START device=6 task=d11_a0 work=15000000000
+FINISH device=6 task=d11_a0
+START device=6 task=d11_a2 work=15000000000
+FINISH device=6 task=d11_a2
+START device=6 task=d12_a0 work=150000000000
+FINISH device=6 task=d12_a0
+START device=6 task=d12_a2 work=150000000000
+FINISH device=6 task=d12_a2
+START device=6 task=d13_a0 work=1500000000000
+FINISH device=6 task=d13_a0
+START device=6 task=d13_a2 work=1500000000000
+FINISH device=6 task=d13_a2
+START device=6 task=d14_a0 work=15000000000000
+FINISH device=6 task=d14_a0
+START device=6 task=d14_a2 work=15000000000000
+FINISH device=6 task=d14_a2
+START device=6 task=d15_a0 work=150000000000000
+FINISH device=6 task=d15_a0
+START device=6 task=d15_a2 work=150000000000000
+FINISH device=6 task=d15_a2
+START device=6 task=d16_a2 work=1500000000000000
+FINISH device=7 task=d16_a0
+FINISH device=1 task=d18_x1
+FINISH device=3 task=d17_a0_x3
+FINISH device=2 task=d17_a0_x2
+FINISH device=5 task=d17_a2_x5
+FINISH device=0 task=d18_x0
+FINISH device=4 task=d17_a2_x4
+FINISH device=6 task=d16_a2
+ALL SEARCH QUEUES FINISHED
+d02_a0                                     17/17                   100.000% hits=0
+d02_a2                                     17/17                   100.000% hits=0
+d03_a0                                    167/167                  100.000% hits=0
+d03_a2                                    167/167                  100.000% hits=0
+d04_a0                                   1667/1667                 100.000% hits=0
+d04_a2                                   1667/1667                 100.000% hits=0
+d05_a0                                  16667/16667                100.000% hits=0
+d05_a2                                  16667/16667                100.000% hits=0
+d06_a0                                 166667/166667               100.000% hits=0
+d06_a2                                 166667/166667               100.000% hits=0
+d07_a0                                1666667/1666667              100.000% hits=0
+d07_a2                                1666667/1666667              100.000% hits=0
+d08_a0                               16666667/16666667             100.000% hits=0
+d08_a2                               16666667/16666667             100.000% hits=0
+d09_a0                              166666667/166666667            100.000% hits=0
+d09_a2                              166666667/166666667            100.000% hits=0
+d10_a0                             1666666667/1666666667           100.000% hits=0
+d10_a2                             1666666667/1666666667           100.000% hits=0
+d11_a0                            16666666667/16666666667          100.000% hits=0
+d11_a2                            16666666667/16666666667          100.000% hits=0
+d12_a0                           166666666667/166666666667         100.000% hits=0
+d12_a2                           166666666667/166666666667         100.000% hits=0
+d13_a0                          1666666666667/1666666666667        100.000% hits=0
+d13_a2                          1666666666667/1666666666667        100.000% hits=0
+d14_a0                         16666666666667/16666666666667       100.000% hits=0
+d14_a2                         16666666666667/16666666666667       100.000% hits=0
+d15_a0                        166666666666667/166666666666667      100.000% hits=0
+d15_a2                        166666666666667/166666666666667      100.000% hits=0
+d16_a0                       1666666666666667/1666666666666667     100.000% hits=0
+d16_a2                       1666666666666667/1666666666666667     100.000% hits=0
+d17_a0_x2                    1905197362671483/1905197362671483     100.000% hits=0
+d17_a0_x3                    3810394725342967/3810394725342967     100.000% hits=0
+d17_a2_x4                    1905197362671483/1905197362671483     100.000% hits=0
+d17_a2_x5                    3810394725342967/3810394725342967     100.000% hits=0
+d18_x0                       1905197362671483/1905197362671483     100.000% hits=1
+d18_x1                       3810394725342967/3810394725342967     100.000% hits=0
+CANDIDATES 675924569493048966

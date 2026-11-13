@@ -1,0 +1,105 @@
+make: Entering directory '/mnt/moonfs/sujianlin-b0/sci/A400666/A400666/a17'
+cd src && PYTHONDONTWRITEBYTECODE=1 python3 filter17.py --digits 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+VERIFY17_SELFTEST_OK literal=100 earlier_scan_through=1000
+FILTER_ALREADY_GENERATED d=18
+FILTER_SELFTEST_OK scalar=100000 vector_batches=10000 trace_points=512
+BRUTEFORCE_D02_COMPLETE searched=82 full_candidates=0
+BRUTEFORCE_D03_COMPLETE searched=900 full_candidates=0
+BRUTEFORCE_D04_COMPLETE searched=9000 full_candidates=0
+BRUTEFORCE_D05_COMPLETE searched=90000 full_candidates=0
+BRUTEFORCE_D06_COMPLETE searched=900000 full_candidates=0
+FILTER_ALREADY_GENERATED d=7
+FILTER_D07_COMPLETE searched=10 full_candidates=0
+FILTER_ALREADY_GENERATED d=8
+FILTER_D08_COMPLETE searched=90 full_candidates=0
+FILTER_ALREADY_GENERATED d=9
+FILTER_D09_COMPLETE searched=807 full_candidates=0
+FILTER_ALREADY_GENERATED d=10
+FILTER_D10_COMPLETE searched=8435 full_candidates=0
+FILTER_ALREADY_GENERATED d=11
+FILTER_D11_COMPLETE searched=85254 full_candidates=0
+FILTER_ALREADY_GENERATED d=12
+FILTER_D12_COMPLETE searched=852373 full_candidates=0
+FILTER_ALREADY_GENERATED d=13
+FILTER_D13_COMPLETE searched=8522515 full_candidates=0
+FILTER_ALREADY_GENERATED d=14
+FILTER_D14_COMPLETE searched=85225663 full_candidates=0
+FILTER_ALREADY_GENERATED d=15
+FILTER_D15_COMPLETE searched=852256992 full_candidates=0
+FILTER_ALREADY_GENERATED d=16
+FILTER_D16_COMPLETE searched=8522569936 full_candidates=0
+FILTER_ALREADY_GENERATED d=17
+FILTER_D17_COMPLETE searched=85225698921 full_candidates=0
+FILTER_ALREADY_GENERATED d=18
+FILTER_D18_COMPLETE searched=852256989538 full_candidates=0
+FILTER_ALREADY_GENERATED d=19
+FILTER_D19_COMPLETE searched=8522569895670 full_candidates=0
+FILTER_ALREADY_GENERATED d=20
+FILTER_D20_COMPLETE searched=85225698957274 full_candidates=0
+FILTER_INTERVALS_COMPLETE_WITHOUT_SOLUTION
+cd src && PYTHONDONTWRITEBYTECODE=1 python3 run17.py --digits 21 22 23 24
+VERIFY17_SELFTEST_OK literal=100 earlier_scan_through=1000
+MAIN_D24_COMPLETE pre_hits=343046 full_candidates=1
+BRUTEFORCE_D02_COMPLETE searched=82 full_candidates=0
+BRUTEFORCE_D03_COMPLETE searched=900 full_candidates=0
+BRUTEFORCE_D04_COMPLETE searched=9000 full_candidates=0
+BRUTEFORCE_D05_COMPLETE searched=90000 full_candidates=0
+BRUTEFORCE_D06_COMPLETE searched=900000 full_candidates=0
+FILTER_D07_COMPLETE searched=10 full_candidates=0
+FILTER_D08_COMPLETE searched=90 full_candidates=0
+FILTER_D09_COMPLETE searched=807 full_candidates=0
+FILTER_D10_COMPLETE searched=8435 full_candidates=0
+FILTER_D11_COMPLETE searched=85254 full_candidates=0
+FILTER_D12_COMPLETE searched=852373 full_candidates=0
+FILTER_D13_COMPLETE searched=8522515 full_candidates=0
+FILTER_D14_COMPLETE searched=85225663 full_candidates=0
+FILTER_D15_COMPLETE searched=852256992 full_candidates=0
+FILTER_D16_COMPLETE searched=8522569936 full_candidates=0
+FILTER_D17_COMPLETE searched=85225698921 full_candidates=0
+FILTER_D18_COMPLETE searched=852256989538 full_candidates=0
+FILTER_D19_COMPLETE searched=8522569895670 full_candidates=0
+FILTER_D20_COMPLETE searched=85225698957274 full_candidates=0
+MAIN_D21_COMPLETE pre_hits=346 full_candidates=0
+MAIN_D22_COMPLETE pre_hits=3446 full_candidates=0
+MAIN_D23_COMPLETE pre_hits=34413 full_candidates=0
+a(17)=553943104744829340555260
+c(17)=1234567891011121314151617
+full_modulus_remainder=0
+lower_digits_complete_through=24
+earlier_solutions=0
+minimum_of_all_saved_candidates=YES
+FINAL_A17_AUDIT_OK
+cd src && PYTHONDONTWRITEBYTECODE=1 python3 finalize17.py
+VERIFY17_SELFTEST_OK literal=100 earlier_scan_through=1000
+MAIN_D24_COMPLETE pre_hits=343046 full_candidates=1
+BRUTEFORCE_D02_COMPLETE searched=82 full_candidates=0
+BRUTEFORCE_D03_COMPLETE searched=900 full_candidates=0
+BRUTEFORCE_D04_COMPLETE searched=9000 full_candidates=0
+BRUTEFORCE_D05_COMPLETE searched=90000 full_candidates=0
+BRUTEFORCE_D06_COMPLETE searched=900000 full_candidates=0
+FILTER_D07_COMPLETE searched=10 full_candidates=0
+FILTER_D08_COMPLETE searched=90 full_candidates=0
+FILTER_D09_COMPLETE searched=807 full_candidates=0
+FILTER_D10_COMPLETE searched=8435 full_candidates=0
+FILTER_D11_COMPLETE searched=85254 full_candidates=0
+FILTER_D12_COMPLETE searched=852373 full_candidates=0
+FILTER_D13_COMPLETE searched=8522515 full_candidates=0
+FILTER_D14_COMPLETE searched=85225663 full_candidates=0
+FILTER_D15_COMPLETE searched=852256992 full_candidates=0
+FILTER_D16_COMPLETE searched=8522569936 full_candidates=0
+FILTER_D17_COMPLETE searched=85225698921 full_candidates=0
+FILTER_D18_COMPLETE searched=852256989538 full_candidates=0
+FILTER_D19_COMPLETE searched=8522569895670 full_candidates=0
+FILTER_D20_COMPLETE searched=85225698957274 full_candidates=0
+MAIN_D21_COMPLETE pre_hits=346 full_candidates=0
+MAIN_D22_COMPLETE pre_hits=3446 full_candidates=0
+MAIN_D23_COMPLETE pre_hits=34413 full_candidates=0
+a(17)=553943104744829340555260
+c(17)=1234567891011121314151617
+full_modulus_remainder=0
+lower_digits_complete_through=24
+earlier_solutions=0
+minimum_of_all_saved_candidates=YES
+FINAL_A17_AUDIT_OK
+A17_COMPLETE 553943104744829340555260
+make: Leaving directory '/mnt/moonfs/sujianlin-b0/sci/A400666/A400666/a17'

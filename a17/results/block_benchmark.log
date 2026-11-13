@@ -1,0 +1,15 @@
+SELFTEST_OK search17_unroll16
+SELFTEST_OK search17_block512
+SELFTEST_OK search17_block256
+BENCH search17_unroll16 repeat=0 aggregate=4.979840000e+11
+BENCH search17_block512 repeat=0 aggregate=5.138880000e+11
+BENCH search17_block256 repeat=0 aggregate=5.216010000e+11
+BENCH search17_unroll16 repeat=1 aggregate=4.979800000e+11
+BENCH search17_block512 repeat=1 aggregate=5.139550000e+11
+BENCH search17_block256 repeat=1 aggregate=5.215090000e+11
+BENCH search17_unroll16 repeat=2 aggregate=4.979130000e+11
+BENCH search17_block512 repeat=2 aggregate=5.139150000e+11
+BENCH search17_block256 repeat=2 aggregate=5.214470000e+11
+BENCH search17_unroll16 repeat=3 aggregate=4.979500000e+11
+BENCH search17_block512 repeat=3 aggregate=5.140040000e+11
+BENCH search17_block256 repeat=3 aggregate=5.214800000e+11

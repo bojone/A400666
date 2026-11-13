@@ -1,0 +1,4 @@
+COARSE_BENCHMARK mode=0 repeat=0 tested=1099511627776 rate=2.9872e+11 x/s hits=0
+COARSE_BENCHMARK mode=1 repeat=0 tested=1099511627776 rate=2.89489e+11 x/s hits=582
+COARSE_BENCHMARK mode=0 repeat=1 tested=1099511627776 rate=2.89337e+11 x/s hits=0
+COARSE_BENCHMARK mode=1 repeat=1 tested=1099511627776 rate=2.89317e+11 x/s hits=582

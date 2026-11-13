@@ -1,0 +1,5 @@
+a(14)=675924569493048966
+c(14)=1234567891011121314
+c(675924569493048966) mod c(14)=0
+All 36 search shards completed. No smaller solution exists in 15..675924569493048965.
+The candidate was independently verified modulo the full composite c(14) by verify.py.

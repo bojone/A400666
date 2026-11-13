@@ -1,0 +1,15 @@
+DIRECT_PAIR_D18_DECISION=REJECTED
+reason=the second coset lies entirely in the 19-digit interval
+period=2Q
+Q=205761315168520219
+g^Q_mod_p=8230452606740808760
+d18_max_x=66666666666666666
+second_coset_min_x=205761315168520219
+second_coset_min_k=3086419727527803285
+d18_upper_exclusive=1000000000000000000
+production_changed=NO
+original_d18_formula_issue=NO; earlier mismatches were out-of-digit-range test points
+busy_benchmark_used_for_decision=NO
+DIRECT_PAIR_TEST_OK classes=2 starts=6 lengths=1,2,63,64 direct_gpu=3120 independent_block_sums=260 boundaries=6
+source_sha256=d819c085dfec39d5af6baa51b7dfca27f3f698980d8cc154bbd69a7db872234a
+binary_sha256=23f00b718efc6b16bfc7f3bf97bc0f2df00b4a8aabfe5a888734f3cc1ed42644

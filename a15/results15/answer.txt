@@ -1,0 +1,4 @@
+a(15)=70685893246361615705
+c(15)=123456789101112131415
+c(a(15)) mod c(15)=0
+All lower intervals completed and audited; no smaller solution exists.

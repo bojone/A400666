@@ -1,0 +1,4 @@
+d=24
+pre_hits=343046
+full_candidates=1
+values=553943104744829340555260

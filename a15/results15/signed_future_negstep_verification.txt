@@ -1,0 +1,14 @@
+FUTURE_NEGATIVE_LINEAR_STEPS_EVALUATION
+compile_flag=-DNEGATIVE_LINEAR_STEPS
+D20_DEFAULT_SCAN_SASS=IDENTICAL instructions=638
+D18_DEFAULT_SCAN_SASS=IDENTICAL instructions=638
+D20_SELFTEST=OK known20_hit_reproduced_by_control_and_negstep=YES resume_no_duplicate=YES
+D18_SELFTEST=OK independent_actual_d18_points=134
+D20_control_mean_rate=2.17671875e11
+D20_negstep_mean_rate=2.16940375e11
+D20_speedup_percent=-0.33605627736702504
+D18_control_mean_rate=2.1899525e11
+D18_negstep_mean_rate=2.1665e11
+D18_speedup_percent=-1.0709136385378182
+CONCLUSION=NOT_DEPLOYED keep_search15_b1024_signed_and_search15_direct_signed
+D19_negstep_remains_deployed=YES production_speedup_percent=1.5172755934718118

@@ -1,0 +1,11 @@
+SMALL_FILTER_PRODUCTION_PATH_VERIFICATION
+synthetic_job=z0:0,ws:0,w0:target range_w_q=0
+targets=0,1,2,3
+scan_modes=pruned,aligned,unaligned
+per_target_points=1104 pruned=322 aligned=400 unaligned=382
+accepted_positive_hits=3312 exact_targets=0,1,2 no_duplicates=YES no_omissions=YES
+rejected_t3_points=1104 observed_hits=0 result=OK
+compile_flags=-DNEGATIVE_LINEAR_STEPS -DLAZY_SMALL_FILTER -DTEST_SMALL_FILTER
+default_control_all_scan_sass=IDENTICAL_TO_PRODUCTION
+production_binary_sha256=67e7b1fc23a73d66c1a0af5921742d122cc692596839ef824765362cd1c47e72
+production_binary_unchanged=YES d19_search_not_restarted=YES

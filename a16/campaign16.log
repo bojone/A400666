@@ -1,0 +1,213 @@
+VERIFY16_SELFTEST_OK literal=100 earlier_scan_through=1000
+SELFTEST_OK montgomery=100000 table_pow=100000 concat_small=1000 concat_large=100
+DIGIT_START d=2
+D02_COMPLETE pre_hits=0 full_candidates=0
+DIGIT_START d=3
+D03_COMPLETE pre_hits=0 full_candidates=0
+DIGIT_START d=4
+D04_COMPLETE pre_hits=0 full_candidates=0
+DIGIT_START d=5
+D05_COMPLETE pre_hits=0 full_candidates=0
+DIGIT_START d=6
+D06_COMPLETE pre_hits=0 full_candidates=0
+DIGIT_START d=7
+TASK_EXIT d=7 device=0 rc=0
+TASK_EXIT d=7 device=1 rc=0
+TASK_EXIT d=7 device=2 rc=0
+TASK_EXIT d=7 device=4 rc=0
+TASK_EXIT d=7 device=3 rc=0
+TASK_EXIT d=7 device=6 rc=0
+TASK_EXIT d=7 device=7 rc=0
+TASK_EXIT d=7 device=5 rc=0
+D07_COMPLETE pre_hits=0 full_candidates=0
+DIGIT_START d=8
+TASK_EXIT d=8 device=7 rc=0
+TASK_EXIT d=8 device=6 rc=0
+TASK_EXIT d=8 device=4 rc=0
+TASK_EXIT d=8 device=3 rc=0
+TASK_EXIT d=8 device=1 rc=0
+TASK_EXIT d=8 device=0 rc=0
+TASK_EXIT d=8 device=2 rc=0
+TASK_EXIT d=8 device=5 rc=0
+D08_COMPLETE pre_hits=0 full_candidates=0
+DIGIT_START d=9
+TASK_EXIT d=9 device=7 rc=0
+TASK_EXIT d=9 device=0 rc=0
+TASK_EXIT d=9 device=2 rc=0
+TASK_EXIT d=9 device=4 rc=0
+TASK_EXIT d=9 device=5 rc=0
+TASK_EXIT d=9 device=3 rc=0
+TASK_EXIT d=9 device=1 rc=0
+TASK_EXIT d=9 device=6 rc=0
+D09_COMPLETE pre_hits=0 full_candidates=0
+DIGIT_START d=10
+TASK_EXIT d=10 device=3 rc=0
+TASK_EXIT d=10 device=0 rc=0
+TASK_EXIT d=10 device=7 rc=0
+TASK_EXIT d=10 device=5 rc=0
+TASK_EXIT d=10 device=2 rc=0
+TASK_EXIT d=10 device=6 rc=0
+TASK_EXIT d=10 device=4 rc=0
+TASK_EXIT d=10 device=1 rc=0
+D10_COMPLETE pre_hits=0 full_candidates=0
+DIGIT_START d=11
+TASK_EXIT d=11 device=0 rc=0
+TASK_EXIT d=11 device=3 rc=0
+TASK_EXIT d=11 device=7 rc=0
+TASK_EXIT d=11 device=2 rc=0
+TASK_EXIT d=11 device=1 rc=0
+TASK_EXIT d=11 device=6 rc=0
+TASK_EXIT d=11 device=4 rc=0
+TASK_EXIT d=11 device=5 rc=0
+D11_COMPLETE pre_hits=0 full_candidates=0
+DIGIT_START d=12
+TASK_EXIT d=12 device=2 rc=0
+TASK_EXIT d=12 device=0 rc=0
+TASK_EXIT d=12 device=5 rc=0
+TASK_EXIT d=12 device=6 rc=0
+TASK_EXIT d=12 device=4 rc=0
+TASK_EXIT d=12 device=1 rc=0
+TASK_EXIT d=12 device=3 rc=0
+TASK_EXIT d=12 device=7 rc=0
+D12_COMPLETE pre_hits=0 full_candidates=0
+DIGIT_START d=13
+TASK_EXIT d=13 device=4 rc=0
+TASK_EXIT d=13 device=3 rc=0
+TASK_EXIT d=13 device=2 rc=0
+TASK_EXIT d=13 device=1 rc=0
+TASK_EXIT d=13 device=6 rc=0
+TASK_EXIT d=13 device=7 rc=0
+TASK_EXIT d=13 device=5 rc=0
+TASK_EXIT d=13 device=0 rc=0
+D13_COMPLETE pre_hits=3 full_candidates=0
+DIGIT_START d=14
+TASK_EXIT d=14 device=0 rc=0
+TASK_EXIT d=14 device=5 rc=0
+TASK_EXIT d=14 device=1 rc=0
+TASK_EXIT d=14 device=6 rc=0
+TASK_EXIT d=14 device=3 rc=0
+TASK_EXIT d=14 device=2 rc=0
+TASK_EXIT d=14 device=7 rc=0
+TASK_EXIT d=14 device=4 rc=0
+D14_COMPLETE pre_hits=12 full_candidates=0
+DIGIT_START d=15
+TASK_EXIT d=15 device=1 rc=0
+TASK_EXIT d=15 device=2 rc=0
+TASK_EXIT d=15 device=5 rc=0
+TASK_EXIT d=15 device=6 rc=0
+TASK_EXIT d=15 device=4 rc=0
+TASK_EXIT d=15 device=3 rc=0
+TASK_EXIT d=15 device=7 rc=0
+TASK_EXIT d=15 device=0 rc=0
+D15_COMPLETE pre_hits=191 full_candidates=0
+DIGIT_START d=16
+TASK_EXIT d=16 device=7 rc=0
+TASK_EXIT d=16 device=1 rc=0
+TASK_EXIT d=16 device=2 rc=0
+TASK_EXIT d=16 device=0 rc=0
+TASK_EXIT d=16 device=5 rc=0
+TASK_EXIT d=16 device=6 rc=0
+TASK_EXIT d=16 device=4 rc=0
+TASK_EXIT d=16 device=3 rc=0
+D16_COMPLETE pre_hits=1785 full_candidates=0
+DIGIT_START d=17
+TASK_EXIT d=17 device=0 rc=0
+TASK_EXIT d=17 device=3 rc=0
+TASK_EXIT d=17 device=1 rc=0
+TASK_EXIT d=17 device=2 rc=0
+TASK_EXIT d=17 device=5 rc=0
+TASK_EXIT d=17 device=7 rc=0
+TASK_EXIT d=17 device=4 rc=0
+TASK_EXIT d=17 device=6 rc=0
+D17_COMPLETE pre_hits=18445 full_candidates=0
+DIGIT_START d=18
+TASK_EXIT d=18 device=0 rc=0
+TASK_EXIT d=18 device=1 rc=0
+TASK_EXIT d=18 device=3 rc=0
+TASK_EXIT d=18 device=2 rc=0
+TASK_EXIT d=18 device=7 rc=0
+TASK_EXIT d=18 device=5 rc=0
+TASK_EXIT d=18 device=4 rc=0
+TASK_EXIT d=18 device=6 rc=0
+D18_COMPLETE pre_hits=182893 full_candidates=0
+DIGIT_START d=19
+TASK_EXIT d=19 device=0 rc=0
+TASK_EXIT d=19 device=3 rc=0
+TASK_EXIT d=19 device=5 rc=0
+TASK_EXIT d=19 device=4 rc=0
+TASK_EXIT d=19 device=2 rc=0
+TASK_EXIT d=19 device=1 rc=0
+TASK_EXIT d=19 device=7 rc=0
+TASK_EXIT d=19 device=6 rc=0
+D19_COMPLETE pre_hits=1826978 full_candidates=0
+DIGIT_START d=20
+TASK_EXIT d=20 device=1 rc=0
+TASK_EXIT d=20 device=0 rc=0
+TASK_EXIT d=20 device=2 rc=0
+TASK_EXIT d=20 device=3 rc=0
+TASK_EXIT d=20 device=4 rc=0
+TASK_EXIT d=20 device=5 rc=0
+TASK_EXIT d=20 device=6 rc=0
+TASK_EXIT d=20 device=7 rc=0
+D20_COMPLETE pre_hits=18273236 full_candidates=0
+DIGIT_START d=21
+TASK_EXIT d=21 device=3 rc=0
+TASK_EXIT d=21 device=4 rc=0
+TASK_EXIT d=21 device=0 rc=0
+TASK_EXIT d=21 device=2 rc=0
+TASK_EXIT d=21 device=1 rc=0
+TASK_EXIT d=21 device=6 rc=0
+TASK_EXIT d=21 device=5 rc=0
+TASK_EXIT d=21 device=7 rc=0
+D21_COMPLETE pre_hits=182765602 full_candidates=0
+DIGIT_START d=22
+TASK_EXIT d=22 device=1 rc=0
+TASK_EXIT d=22 device=5 rc=0
+TASK_EXIT d=22 device=3 rc=0
+TASK_EXIT d=22 device=7 rc=0
+TASK_EXIT d=22 device=0 rc=0
+TASK_EXIT d=22 device=2 rc=0
+TASK_EXIT d=22 device=6 rc=0
+TASK_EXIT d=22 device=4 rc=0
+D22_COMPLETE pre_hits=1827789172 full_candidates=0
+DIGIT_START d=23
+TASK_EXIT d=23 device=2 rc=0
+TASK_EXIT d=23 device=1 rc=0
+TASK_EXIT d=23 device=3 rc=0
+TASK_EXIT d=23 device=6 rc=0
+TASK_EXIT d=23 device=5 rc=0
+TASK_EXIT d=23 device=4 rc=0
+TASK_EXIT d=23 device=0 rc=0
+TASK_EXIT d=23 device=7 rc=0
+D23_COMPLETE pre_hits=18277398093 full_candidates=10
+VERIFY16_SELFTEST_OK literal=100 earlier_scan_through=1000
+D02_COMPLETE pre_hits=0 full_candidates=0
+D03_COMPLETE pre_hits=0 full_candidates=0
+D04_COMPLETE pre_hits=0 full_candidates=0
+D05_COMPLETE pre_hits=0 full_candidates=0
+D06_COMPLETE pre_hits=0 full_candidates=0
+D07_COMPLETE pre_hits=0 full_candidates=0
+D08_COMPLETE pre_hits=0 full_candidates=0
+D09_COMPLETE pre_hits=0 full_candidates=0
+D10_COMPLETE pre_hits=0 full_candidates=0
+D11_COMPLETE pre_hits=0 full_candidates=0
+D12_COMPLETE pre_hits=0 full_candidates=0
+D13_COMPLETE pre_hits=3 full_candidates=0
+D14_COMPLETE pre_hits=12 full_candidates=0
+D15_COMPLETE pre_hits=191 full_candidates=0
+D16_COMPLETE pre_hits=1785 full_candidates=0
+D17_COMPLETE pre_hits=18445 full_candidates=0
+D18_COMPLETE pre_hits=182893 full_candidates=0
+D19_COMPLETE pre_hits=1826978 full_candidates=0
+D20_COMPLETE pre_hits=18273236 full_candidates=0
+D21_COMPLETE pre_hits=182765602 full_candidates=0
+D22_COMPLETE pre_hits=1827789172 full_candidates=0
+D23_COMPLETE pre_hits=18277398093 full_candidates=10
+a(16)=10152437877876943330588
+c(16)=12345678910111213141516
+full_modulus_remainder=0
+lower_digits_complete_through=23
+earlier_solutions=0
+minimum_of_all_saved_candidates=YES
+FINAL_A16_AUDIT_OK
+A16_COMPLETE 10152437877876943330588

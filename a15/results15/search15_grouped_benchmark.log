@@ -1,0 +1,4 @@
+GROUPED_BENCHMARK mode=0 repeat=0 tested=1099511627776 rate=3.01084e+11 x/s hits=0
+GROUPED_BENCHMARK mode=1 repeat=0 tested=1099511627776 rate=2.86909e+11 x/s hits=0
+GROUPED_BENCHMARK mode=0 repeat=1 tested=1099511627776 rate=3.00858e+11 x/s hits=0
+GROUPED_BENCHMARK mode=1 repeat=1 tested=1099511627776 rate=2.86901e+11 x/s hits=0

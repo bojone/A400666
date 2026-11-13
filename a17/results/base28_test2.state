@@ -1,0 +1,7 @@
+config=28:0:0:100000000
+next_x=100000000
+pre_hits=1
+hits=0
+period=292269198393382251
+chunk=65536
+blocks=4096

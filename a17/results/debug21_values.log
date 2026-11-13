@@ -1,0 +1,5 @@
+progress name=debug21_values next_x=274877906944/1000000000000 rate=4.72085e+11 elapsed=0.582264 pre=0 hits=0
+progress name=debug21_values next_x=549755813888/1000000000000 rate=4.72326e+11 elapsed=1.16423 pre=0 hits=0
+progress name=debug21_values next_x=824633720832/1000000000000 rate=4.72318e+11 elapsed=1.74621 pre=0 hits=0
+progress name=debug21_values next_x=1000000000000/1000000000000 rate=4.68518e+11 elapsed=2.12051 pre=0 hits=0
+DONE name=debug21_values next_x=1000000000000 pre=0 hits=0

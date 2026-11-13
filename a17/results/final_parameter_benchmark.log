@@ -1,0 +1,9 @@
+BENCH search17_block128 chunk=65536 repeat=0 aggregate=5.229420000e+11
+BENCH search17_block256 chunk=65536 repeat=0 aggregate=5.215220000e+11
+BENCH search17_block256 chunk=262144 repeat=0 aggregate=5.222540000e+11
+BENCH search17_block128 chunk=65536 repeat=1 aggregate=5.228960000e+11
+BENCH search17_block256 chunk=65536 repeat=1 aggregate=5.215460000e+11
+BENCH search17_block256 chunk=262144 repeat=1 aggregate=5.221970000e+11
+BENCH search17_block128 chunk=65536 repeat=2 aggregate=5.228800000e+11
+BENCH search17_block256 chunk=65536 repeat=2 aggregate=5.214870000e+11
+BENCH search17_block256 chunk=262144 repeat=2 aggregate=5.222840000e+11

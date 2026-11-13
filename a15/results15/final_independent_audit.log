@@ -1,0 +1,54 @@
+INPUT_MODULUS_LITERAL_OK c(15)=123456789101112131415
+INDEPENDENT_CANDIDATE_OK k=70685893246361615705 block_sums=0 matrix=0
+INDEPENDENT_CANDIDATE_OK k=73394079098572402415 block_sums=0 matrix=0
+INDEPENDENT_CANDIDATE_OK k=74341537919751115530 block_sums=0 matrix=0
+CPU_JOB_COMPLETE d=2 a=0 searched=5 candidates=0
+CPU_JOB_COMPLETE d=2 a=5 searched=6 candidates=0
+CPU_JOB_COMPLETE d=3 a=0 searched=60 candidates=0
+CPU_JOB_COMPLETE d=3 a=5 searched=60 candidates=0
+CPU_JOB_COMPLETE d=4 a=0 searched=600 candidates=0
+CPU_JOB_COMPLETE d=4 a=5 searched=600 candidates=0
+CPU_JOB_COMPLETE d=5 a=0 searched=6000 candidates=0
+CPU_JOB_COMPLETE d=5 a=5 searched=6000 candidates=0
+CPU_JOB_COMPLETE d=6 a=0 searched=60000 candidates=0
+CPU_JOB_COMPLETE d=6 a=5 searched=60000 candidates=0
+CPU_JOB_COMPLETE d=7 a=0 searched=600000 candidates=0
+CPU_JOB_COMPLETE d=7 a=5 searched=600000 candidates=0
+CPU_JOB_COMPLETE d=8 a=0 searched=6000000 candidates=0
+CPU_JOB_COMPLETE d=8 a=5 searched=6000000 candidates=0
+CPU_JOB_COMPLETE d=9 a=0 searched=60000000 candidates=0
+CPU_JOB_COMPLETE d=9 a=5 searched=60000000 candidates=0
+CPU_JOB_COMPLETE d=10 a=0 searched=600000000 candidates=0
+CPU_JOB_COMPLETE d=10 a=5 searched=600000000 candidates=0
+CPU_JOB_COMPLETE d=11 a=0 searched=6000000000 candidates=0
+CPU_JOB_COMPLETE d=11 a=5 searched=6000000000 candidates=0
+CPU_JOB_COMPLETE d=12 a=0 searched=60000000000 candidates=0
+CPU_JOB_COMPLETE d=12 a=5 searched=60000000000 candidates=0
+CPU_JOB_COMPLETE d=13 a=0 searched=600000000000 candidates=0
+CPU_JOB_COMPLETE d=13 a=5 searched=600000000000 candidates=0
+CPU_JOB_COMPLETE d=14 a=0 searched=6000000000000 candidates=0
+CPU_JOB_COMPLETE d=14 a=5 searched=6000000000000 candidates=0
+CPU_JOB_COMPLETE d=15 a=0 searched=60000000000000 candidates=0
+CPU_JOB_COMPLETE d=15 a=5 searched=60000000000000 candidates=0
+CPU_JOB_COMPLETE d=16 a=0 searched=600000000000000 candidates=0
+CPU_JOB_COMPLETE d=16 a=5 searched=600000000000000 candidates=0
+CPU_JOB_COMPLETE d=17 a=0 searched=6000000000000000 candidates=0
+CPU_JOB_COMPLETE d=17 a=5 searched=6000000000000000 candidates=0
+FINAL_CPU_COVERAGE_OK searched=13333333333333331 earlier_solutions=0
+CPU18_PREFIX_COMPLETE a=0 searched=4186182173000000 clean_stop=YES
+CPU18_PREFIX_COMPLETE a=5 searched=1034070710000000 clean_stop=YES
+D18_SEARCH_COMPLETE candidates=0
+BALANCED_D19_AUDIT_COMPLETE covered_or_pruned=823045260674080876/823045260674080876 candidates=[]
+VERIFIED_D20_CANDIDATE k=70685893246361615705 remainder_c15=0
+VERIFIED_D20_CANDIDATE k=73394079098572402415 remainder_c15=0
+VERIFIED_D20_CANDIDATE k=74341537919751115530 remainder_c15=0
+D20_SEARCH_COMPLETE candidates=3
+SMALLEST_D20_CANDIDATE=70685893246361615705; lower intervals still required for a(15)
+INDEPENDENT_CANDIDATE_OK k=70685893246361615705 block_sums=0 matrix=0
+a(15)=70685893246361615705
+block_sums_remainder=0
+matrix_remainder=0
+cpu_searched=13333333333333331
+lower_intervals_complete_through_digit=20
+minimum_of_all_saved_candidates=YES
+FINAL_INDEPENDENT_AUDIT_OK
